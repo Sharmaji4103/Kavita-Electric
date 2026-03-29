@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://kavita-electric.vercel.app/sitemap.xml
+
+# Block access to any private/admin paths (add more if needed)
+Disallow: /admin/
+Disallow: /private/
