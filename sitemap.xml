@@ -6,7 +6,7 @@
 
   <!-- HOMEPAGE -->
   <url>
-    <loc>https://www.kavitaelectric.com/</loc>
+    <loc>https://kavita-electric.vercel.app/</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
   <!-- PRODUCTS SECTION -->
   <url>
-    <loc>https://www.kavitaelectric.com/#products</loc>
+    <loc>https://kavita-electric.vercel.app/#products</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -22,7 +22,7 @@
 
   <!-- SERVICES SECTION -->
   <url>
-    <loc>https://www.kavitaelectric.com/#services</loc>
+    <loc>https://kavita-electric.vercel.app/#services</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -30,7 +30,7 @@
 
   <!-- ABOUT / WHY US SECTION -->
   <url>
-    <loc>https://www.kavitaelectric.com/#why</loc>
+    <loc>https://kavita-electric.vercel.app/#why</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -38,7 +38,7 @@
 
   <!-- PROJECTS SECTION -->
   <url>
-    <loc>https://www.kavitaelectric.com/#projects</loc>
+    <loc>https://kavita-electric.vercel.app/#projects</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -46,7 +46,7 @@
 
   <!-- TESTIMONIALS SECTION -->
   <url>
-    <loc>https://www.kavitaelectric.com/#testimonials</loc>
+    <loc>https://kavita-electric.vercel.app/#testimonials</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -54,7 +54,7 @@
 
   <!-- FAQ SECTION -->
   <url>
-    <loc>https://www.kavitaelectric.com/#faq</loc>
+    <loc>https://kavita-electric.vercel.app/#faq</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -62,7 +62,7 @@
 
   <!-- SERVICE AREAS SECTION -->
   <url>
-    <loc>https://www.kavitaelectric.com/#areas</loc>
+    <loc>https://kavita-electric.vercel.app/#areas</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -70,7 +70,7 @@
 
   <!-- CONTACT SECTION -->
   <url>
-    <loc>https://www.kavitaelectric.com/#contact</loc>
+    <loc>https://kavita-electric.vercel.app/#contact</loc>
     <lastmod>2025-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
