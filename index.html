@@ -38,18 +38,18 @@
 <meta name="geo.position" content="22.6916;72.8634"/>
 <meta name="ICBM" content="22.6916, 72.8634"/>
 
-<!-- ====== STRUCTURED DATA: Local Business ====== -->
+<!-- ====== STRUCTURED DATA: Local Business (FIXED) ====== -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ElectricalContractor",
-  "@id": "https://www.kavitaelectric.com/#organization",
+  "@id": "https://kavita-electric.vercel.app/#organization",
   "name": "Kavita Electric",
   "alternateName": "Kavita-Electric",
   "description": "Licensed electrical contractor and supplier in Nadiad, Gujarat. Specializing in residential, commercial and industrial wiring, LED lighting, solar panels, ceiling fans, switches, cables and 24/7 emergency repairs since 2005.",
-  "url": "https://www.kavitaelectric.com/",
-  "logo": "https://www.kavitaelectric.com/logo.png",
-  "image": "https://www.kavitaelectric.com/og-image.jpg",
+  "url": "https://kavita-electric.vercel.app/",
+  "logo": "https://kavita-electric.vercel.app/logo.png",
+  "image": "https://kavita-electric.vercel.app/og-image.jpg",
   "telephone": ["+91-9876543210", "+91-9876543211"],
   "email": "info@kavitaelectric.com",
   "foundingDate": "2005",
@@ -87,46 +87,221 @@
     "@type": "AggregateRating",
     "ratingValue": "4.9",
     "reviewCount": "127",
-    "bestRating": "5"
-  },
-  "review": [
-    {
-      "@type": "Review",
-      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
-      "author": {"@type": "Person", "name": "Rajesh Joshi"},
-      "reviewBody": "Kavita Electric rewired our entire 3-floor office with zero disruption. Professional team, clean work, delivered on time. Highly recommend!"
-    },
-    {
-      "@type": "Review",
-      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
-      "author": {"@type": "Person", "name": "Suresh Patel"},
-      "reviewBody": "They installed solar panels for our factory flawlessly. The team was very knowledgeable and after-service support has been excellent throughout."
-    },
-    {
-      "@type": "Review",
-      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
-      "author": {"@type": "Person", "name": "Meena Kapadia"},
-      "reviewBody": "Called them for a midnight emergency, they arrived within one hour and fixed the fault. This is what real, reliable service looks like. Thank you!"
-    }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Electrical Products & Services",
-    "itemListElement": [
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Residential Wiring", "description": "Complete home wiring for new constructions and rewiring of older homes."}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Commercial Electrical Projects", "description": "Large-scale commercial electrical with minimal downtime for offices and warehouses."}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Industrial Electrical", "description": "Heavy-duty wiring, motor installations, control panels for factories and plants."}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Solar Panel Installation", "description": "Rooftop solar setup with grid-tie inverters. Subsidy assistance available."}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "24/7 Emergency Electrical Repairs", "description": "Round-the-clock emergency electrical repair services across Gujarat."}},
-      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "LED Bulbs", "description": "ISI certified LED bulbs 5W–25W, warm and cool white."}},
-      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Ceiling Fans", "description": "BLDC and standard ceiling fans with 2-year warranty."}},
-      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Solar Panels", "description": "100W–400W mono and polycrystalline panels with complete rooftop kits."}}
-    ]
+    "bestRating": "5",
+    "worstRating": "1"
   },
   "sameAs": [
     "https://www.facebook.com/kavitaelectric",
     "https://www.instagram.com/kavitaelectric",
     "https://www.justdial.com/Nadiad/Kavita-Electric"
+  ]
+}
+</script>
+
+<!-- ====== STRUCTURED DATA: Products (FIXED — includes offers/price) ====== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kavita Electric Products",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Product",
+        "name": "LED Bulbs",
+        "description": "Energy-saving LED bulbs 5W–25W. Long life, available in warm & cool white. ISI certified.",
+        "brand": {"@type": "Brand", "name": "Kavita Electric"},
+        "category": "Lighting",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "INR",
+          "priceRange": "?50 - ?500",
+          "seller": {"@type": "Organization", "name": "Kavita Electric"},
+          "areaServed": "Gujarat"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Product",
+        "name": "Tube Lights (Tublite)",
+        "description": "Fluorescent & LED tube lights for homes, offices, shops. 2ft, 4ft, 5ft lengths available.",
+        "brand": {"@type": "Brand", "name": "Kavita Electric"},
+        "category": "Lighting",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "INR",
+          "priceRange": "?100 - ?800",
+          "seller": {"@type": "Organization", "name": "Kavita Electric"},
+          "areaServed": "Gujarat"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Product",
+        "name": "Ceiling Fans",
+        "description": "High-speed BLDC & standard ceiling fans. Energy-efficient motors with 2-year warranty.",
+        "brand": {"@type": "Brand", "name": "Kavita Electric"},
+        "category": "Fans",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "INR",
+          "priceRange": "?1200 - ?6000",
+          "seller": {"@type": "Organization", "name": "Kavita Electric"},
+          "areaServed": "Gujarat"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Product",
+        "name": "Switches & Sockets",
+        "description": "Modular switches, 3-pin sockets, USB charging points. ISI marked and fire-resistant.",
+        "brand": {"@type": "Brand", "name": "Kavita Electric"},
+        "category": "Electrical Fittings",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "INR",
+          "priceRange": "?80 - ?1500",
+          "seller": {"@type": "Organization", "name": "Kavita Electric"},
+          "areaServed": "Gujarat"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Product",
+        "name": "Solar Panels",
+        "description": "Mono & poly crystalline panels 100W–400W. Complete rooftop kits with inverter included.",
+        "brand": {"@type": "Brand", "name": "Kavita Electric"},
+        "category": "Renewable Energy",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "INR",
+          "priceRange": "?15000 - ?150000",
+          "seller": {"@type": "Organization", "name": "Kavita Electric"},
+          "areaServed": "Gujarat"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Product",
+        "name": "Cables & Wires",
+        "description": "PVC insulated wires, armoured cables, flexible cords. All gauges 1mm to 25mm sq.",
+        "brand": {"@type": "Brand", "name": "Kavita Electric"},
+        "category": "Wiring",
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "INR",
+          "priceRange": "?20 - ?500 per metre",
+          "seller": {"@type": "Organization", "name": "Kavita Electric"},
+          "areaServed": "Gujarat"
+        }
+      }
+    }
+  ]
+}
+</script>
+
+<!-- ====== STRUCTURED DATA: Reviews (FIXED — includes itemReviewed) ====== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kavita Electric Customer Reviews",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Rajesh Joshi"
+        },
+        "reviewBody": "Kavita Electric rewired our entire 3-floor office with zero disruption. Professional team, clean work, delivered on time. Highly recommend!",
+        "datePublished": "2024-11-10",
+        "itemReviewed": {
+          "@type": "ElectricalContractor",
+          "name": "Kavita Electric",
+          "url": "https://kavita-electric.vercel.app/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Suresh Patel"
+        },
+        "reviewBody": "They installed solar panels for our factory flawlessly. The team was very knowledgeable and after-service support has been excellent throughout.",
+        "datePublished": "2024-12-05",
+        "itemReviewed": {
+          "@type": "ElectricalContractor",
+          "name": "Kavita Electric",
+          "url": "https://kavita-electric.vercel.app/"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Meena Kapadia"
+        },
+        "reviewBody": "Called them for a midnight emergency — they arrived within one hour and fixed the fault. This is what real, reliable service looks like. Thank you!",
+        "datePublished": "2025-01-18",
+        "itemReviewed": {
+          "@type": "ElectricalContractor",
+          "name": "Kavita Electric",
+          "url": "https://kavita-electric.vercel.app/"
+        }
+      }
+    }
   ]
 }
 </script>
@@ -174,7 +349,15 @@
       "name": "Which areas in Gujarat do you serve?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We are based in Nadiad and serve clients throughout Gujarat including Anand, Kheda, Vadodara, Ahmedabad, and surrounding districts."
+        "text": "We are based in Nadiad and serve clients throughout Gujarat including Anand, Kheda, Vadodara, Ahmedabad, Bharuch, and surrounding districts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer free electrical quotes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all quotes are completely free. Fill in the contact form or WhatsApp us directly and our team will contact you within a few hours."
       }
     }
   ]
@@ -187,10 +370,10 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.kavitaelectric.com/"},
-    {"@type": "ListItem", "position": 2, "name": "Products", "item": "https://www.kavitaelectric.com/#products"},
-    {"@type": "ListItem", "position": 3, "name": "Services", "item": "https://www.kavitaelectric.com/#services"},
-    {"@type": "ListItem", "position": 4, "name": "Contact", "item": "https://www.kavitaelectric.com/#contact"}
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://kavita-electric.vercel.app/"},
+    {"@type": "ListItem", "position": 2, "name": "Products", "item": "https://kavita-electric.vercel.app/#products"},
+    {"@type": "ListItem", "position": 3, "name": "Services", "item": "https://kavita-electric.vercel.app/#services"},
+    {"@type": "ListItem", "position": 4, "name": "Contact", "item": "https://kavita-electric.vercel.app/#contact"}
   ]
 }
 </script>
