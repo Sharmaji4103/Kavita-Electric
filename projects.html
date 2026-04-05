@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Projects — Kavita Electric | Residential, Commercial, Industrial & Solar | Godhra, Gujarat</title>
+<meta name="description" content="Explore Kavita Electric's completed and ongoing projects — residential townships, commercial complexes, industrial wiring, solar installations across Gujarat."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&family=Barlow+Condensed:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23F05A22' rx='4'/><polygon points='19,2 13,14 22,14 10,30 18,30 18,16 9,16' fill='white'/></svg>" type="image/svg+xml"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#1A2346;--navy2:#243060;--orange:#F05A22;--orange2:#D14810;
+  --white:#fff;--gray:#F4F5F7;--muted:#6B7280;--border:#E5E7EB;
+  --text:#111827;--text2:#374151;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Barlow',sans-serif;background:var(--white);color:var(--text);overflow-x:hidden}
+
+.skip{position:absolute;left:-9999px;background:var(--orange);color:#fff;padding:.4rem 1rem;font-weight:700;z-index:9999}
+.skip:focus{left:1rem;top:1rem}
+
+/* TOP BAR */
+.top-bar{background:var(--white);border-bottom:1px solid var(--border);padding:.5rem 0}
+.tbi{max-width:1280px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.top-brand{display:flex;align-items:center;gap:.5rem;text-decoration:none}
+.bolt{width:36px;height:36px;background:var(--orange);clip-path:polygon(62% 0%,36% 46%,68% 46%,28% 100%,52% 54%,22% 54%);flex-shrink:0}
+.bname{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.75rem;color:var(--navy);letter-spacing:.02em}
+.bname span{color:var(--orange)}
+.top-cta{background:var(--orange);color:#fff;border:none;padding:.55rem 1.4rem;font-family:'Barlow',sans-serif;font-size:.8rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;white-space:nowrap;transition:background .2s;text-decoration:none}
+.top-cta:hover{background:var(--orange2)}
+.top-contacts{display:flex;gap:1.8rem;align-items:center}
+.tc{display:flex;align-items:center;gap:.6rem}
+.tc-ic{width:32px;height:32px;border-radius:50%;border:1.5px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:.9rem;color:var(--orange);flex-shrink:0}
+.tc-lb{font-size:.65rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);line-height:1.2}
+.tc-vl{font-size:.8rem;font-weight:600;color:var(--text);line-height:1.3}
+.tc-vl a{color:inherit;text-decoration:none}
+
+/* NAV */
+.main-nav{background:var(--navy);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.25)}
+.ni{max-width:1280px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between}
+.nav-links{display:flex;list-style:none}
+.nav-links a{display:block;padding:.95rem 1.2rem;font-size:.84rem;font-weight:700;letter-spacing:.05em;color:rgba(255,255,255,.65);text-decoration:none;text-transform:uppercase;border-bottom:3px solid transparent;transition:color .2s,border-color .2s}
+.nav-links a:hover,.nav-links a.active{color:#fff;border-bottom-color:var(--orange)}
+.nav-r{display:flex;align-items:center;gap:.5rem}
+.soc{width:28px;height:28px;border-radius:50%;border:1.5px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.45);font-size:.65rem;font-weight:700;cursor:pointer;transition:border-color .2s,color .2s}
+.soc:hover{border-color:var(--orange);color:var(--orange)}
+.ham{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.4rem}
+.ham span{display:block;width:24px;height:2px;background:#fff;border-radius:2px;transition:transform .3s,opacity .3s}
+.ham.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.ham.open span:nth-child(2){opacity:0}
+.ham.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* PAGE HERO */
+.page-hero{background:var(--navy);padding:4rem 0 0;position:relative;overflow:hidden}
+.page-hero::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 59px,rgba(255,255,255,.03) 59px,rgba(255,255,255,.03) 60px),repeating-linear-gradient(90deg,transparent,transparent 59px,rgba(255,255,255,.03) 59px,rgba(255,255,255,.03) 60px);pointer-events:none}
+.page-hero-inner{max-width:1280px;margin:0 auto;padding:0 2rem 3rem;position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.breadcrumb{display:flex;align-items:center;gap:.5rem;margin-bottom:1.5rem;font-size:.78rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+.breadcrumb a{color:rgba(255,255,255,.5);text-decoration:none;transition:color .2s}
+.breadcrumb a:hover{color:var(--orange)}
+.breadcrumb span{color:rgba(255,255,255,.25)}
+.breadcrumb .current{color:var(--orange)}
+.page-hero h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(3rem,5.5vw,5.5rem);font-weight:900;color:#fff;line-height:.95;letter-spacing:.01em}
+.page-hero h1 em{font-style:normal;color:var(--orange)}
+.hero-desc{font-size:.97rem;color:rgba(255,255,255,.6);line-height:1.75;margin-top:1.2rem;max-width:430px}
+.hero-stats-row{display:flex;gap:2rem;margin-top:2rem;flex-wrap:wrap}
+.hs{border-left:3px solid var(--orange);padding-left:.9rem}
+.hs-num{font-family:'Barlow Condensed',sans-serif;font-size:2.2rem;font-weight:900;color:#fff;line-height:1}
+.hs-lbl{font-size:.68rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.1rem}
+.hero-right-wrap{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.hero-badge-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:5px;padding:1.2rem 1.5rem;display:flex;align-items:center;gap:.9rem;transition:background .25s}
+.hero-badge-card:hover{background:rgba(255,255,255,.1)}
+.hbc-icon{width:40px;height:40px;background:rgba(240,90,34,.15);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}
+.hbc-title{font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:700;color:#fff;letter-spacing:.03em}
+.hbc-sub{font-size:.72rem;color:rgba(255,255,255,.4);margin-top:.1rem}
+.hero-wave{display:block;width:100%;line-height:0;margin-bottom:-1px}
+
+/* BUTTONS */
+.btn-orange{background:var(--orange);color:#fff;border:none;padding:.85rem 1.8rem;font-family:'Barlow',sans-serif;font-size:.84rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;transition:background .2s,transform .15s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
+.btn-orange:hover{background:var(--orange2);transform:translateY(-2px)}
+.btn-outline{background:transparent;color:var(--navy);border:2px solid var(--navy);padding:.82rem 1.8rem;font-family:'Barlow',sans-serif;font-size:.84rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;transition:all .2s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
+.btn-outline:hover{background:var(--navy);color:#fff;transform:translateY(-2px)}
+
+/* MAIN */
+.main-content{max-width:1280px;margin:0 auto;padding:4rem 2rem 5rem}
+
+/* SECTION */
+.sec-tag{font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);display:flex;align-items:center;gap:.5rem;margin-bottom:.6rem}
+.sec-tag::before{content:'';display:inline-block;width:20px;height:2px;background:var(--orange)}
+.sec-heading{font-family:'Barlow Condensed',sans-serif;font-size:clamp(2rem,3.5vw,3rem);font-weight:800;color:var(--navy);letter-spacing:.01em;line-height:1.05}
+.sec-heading span{color:var(--orange)}
+.sec-header{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:3rem;flex-wrap:wrap;gap:1.5rem}
+
+/* FILTER TABS */
+.filter-bar{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:2.5rem}
+.filter-btn{background:var(--gray);border:1.5px solid var(--border);color:var(--muted);font-family:'Barlow',sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:.52rem 1.2rem;border-radius:3px;cursor:pointer;transition:all .2s}
+.filter-btn:hover{border-color:var(--orange);color:var(--orange)}
+.filter-btn.active{background:var(--orange);border-color:var(--orange);color:#fff}
+
+/* PROJECTS MASONRY GRID */
+.projects-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:1.2rem}
+.proj-card{background:#fff;border:1.5px solid var(--border);overflow:hidden;transition:border-color .3s,transform .3s,box-shadow .3s;border-radius:4px;display:flex;flex-direction:column}
+.proj-card:hover{border-color:var(--orange);transform:translateY(-6px);box-shadow:0 16px 36px rgba(0,0,0,.12)}
+.proj-card.wide{grid-column:span 8}
+.proj-card.narrow{grid-column:span 4}
+.proj-card.half{grid-column:span 6}
+.proj-card.third{grid-column:span 4}
+.proj-img-wrap{position:relative;overflow:hidden}
+.proj-img{width:100%;object-fit:cover;display:block;transition:transform .6s,filter .4s;filter:brightness(.82)}
+.proj-card.wide .proj-img{height:290px}
+.proj-card.narrow .proj-img{height:290px}
+.proj-card.half .proj-img{height:230px}
+.proj-card.third .proj-img{height:200px}
+.proj-card:hover .proj-img{transform:scale(1.06);filter:brightness(1)}
+.proj-overlay{position:absolute;inset:0;background:linear-gradient(transparent 45%,rgba(0,0,0,.55))}
+.proj-status{position:absolute;top:14px;left:14px;font-size:.62rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.28rem .75rem;border-radius:2px}
+.proj-status.completed{background:rgba(34,197,94,.9);color:#fff}
+.proj-status.ongoing{background:rgba(240,90,34,.9);color:#fff}
+.proj-status.upcoming{background:rgba(99,102,241,.9);color:#fff}
+.proj-type-badge{position:absolute;bottom:14px;right:14px;background:rgba(26,35,70,.85);color:rgba(255,255,255,.85);font-size:.62rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:.28rem .75rem;border-radius:2px;backdrop-filter:blur(4px)}
+.proj-body{padding:1.4rem 1.6rem 1.8rem;flex:1;display:flex;flex-direction:column}
+.proj-cat{font-size:.67rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);margin-bottom:.4rem}
+.proj-name{font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:800;letter-spacing:.02em;color:var(--navy);margin-bottom:.5rem;line-height:1.1}
+.proj-desc{font-size:.84rem;color:var(--muted);line-height:1.65;flex:1}
+.proj-meta{display:flex;gap:1.5rem;margin-top:1.2rem;padding-top:1.2rem;border-top:1px solid var(--border);flex-wrap:wrap}
+.pm-item{display:flex;flex-direction:column;gap:.15rem}
+.pm-label{font-size:.62rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.pm-val{font-size:.82rem;font-weight:700;color:var(--navy)}
+
+/* STATS SECTION */
+.stats-section{background:var(--navy);border-radius:6px;padding:3.5rem;margin:4rem 0;display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative;overflow:hidden}
+.stats-section::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(255,255,255,.02) 39px,rgba(255,255,255,.02) 40px),repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(255,255,255,.02) 39px,rgba(255,255,255,.02) 40px)}
+.stat-col{padding:2rem 2.5rem;border-right:1px solid rgba(255,255,255,.1);position:relative;z-index:1;text-align:center}
+.stat-col:last-child{border-right:none}
+.stat-icon{font-size:2rem;margin-bottom:.8rem;display:block}
+.stat-num{font-family:'Barlow Condensed',sans-serif;font-size:3.5rem;font-weight:900;color:#fff;line-height:1;display:block}
+.stat-num span{color:var(--orange)}
+.stat-lbl{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.4rem;display:block}
+
+/* FEATURED PROJECT */
+.featured-section{margin:4rem 0}
+.featured-card{background:var(--gray);border:1.5px solid var(--border);border-radius:6px;overflow:hidden;display:grid;grid-template-columns:1.2fr 1fr}
+.featured-img{position:relative;overflow:hidden}
+.featured-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;filter:brightness(.85);min-height:400px}
+.featured-card:hover .featured-img img{transform:scale(1.04)}
+.featured-img-overlay{position:absolute;inset:0;background:linear-gradient(to right,transparent 60%,rgba(244,245,247,.95))}
+.featured-body{padding:3rem}
+.featured-label{font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);display:flex;align-items:center;gap:.5rem;margin-bottom:1rem}
+.featured-label::before{content:'';display:inline-block;width:20px;height:2px;background:var(--orange)}
+.featured-title{font-family:'Barlow Condensed',sans-serif;font-size:2.4rem;font-weight:900;color:var(--navy);line-height:1.05;letter-spacing:.01em;margin-bottom:1rem}
+.featured-title span{color:var(--orange)}
+.featured-desc{font-size:.9rem;color:var(--muted);line-height:1.75;margin-bottom:1.8rem}
+.featured-metrics{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem}
+.fm-item{background:#fff;border:1px solid var(--border);border-radius:4px;padding:1rem 1.2rem}
+.fm-val{font-family:'Barlow Condensed',sans-serif;font-size:1.8rem;font-weight:900;color:var(--navy);line-height:1}
+.fm-val span{color:var(--orange)}
+.fm-lbl{font-size:.68rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin-top:.2rem}
+
+/* CTA */
+.cta-section{background:var(--gray);border:1.5px solid var(--border);border-radius:6px;padding:3rem;display:flex;align-items:center;justify-content:space-between;gap:2.5rem;flex-wrap:wrap;margin-top:4rem}
+.cta-text h3{font-family:'Barlow Condensed',sans-serif;font-size:2.2rem;font-weight:800;color:var(--navy);letter-spacing:.01em;line-height:1.05;margin-bottom:.5rem}
+.cta-text p{font-size:.9rem;color:var(--muted);line-height:1.65;max-width:460px}
+.cta-actions{display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
+
+/* FOOTER */
+footer{background:var(--navy);border-top:3px solid var(--orange);padding:2.2rem 2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.2rem}
+.f-brand{font-family:'Barlow Condensed',sans-serif;font-size:1.35rem;font-weight:800;color:#fff}
+.f-brand span{color:var(--orange)}
+.f-copy{font-size:.73rem;color:rgba(255,255,255,.38);margin-top:.25rem}
+.footer-links{display:flex;gap:1.6rem;list-style:none;flex-wrap:wrap}
+.footer-links a{color:rgba(255,255,255,.45);text-decoration:none;font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;transition:color .2s}
+.footer-links a:hover{color:var(--orange)}
+
+/* WA */
+.wa{position:fixed;bottom:26px;right:26px;z-index:200;width:56px;height:56px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(37,211,102,.4);text-decoration:none;transition:transform .25s}
+.wa:hover{transform:scale(1.12)}
+.wa svg{width:28px;height:28px}
+
+/* FADE */
+.fade-up{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+.fade-up.visible{opacity:1;transform:translateY(0)}
+
+/* RESPONSIVE */
+@media(max-width:1024px){
+  .stats-section{grid-template-columns:repeat(2,1fr)}
+  .stat-col{border-bottom:1px solid rgba(255,255,255,.1)}
+  .stat-col:nth-child(2){border-right:none}
+  .stat-col:nth-child(3){border-bottom:none}
+  .stat-col:nth-child(4){border-right:none;border-bottom:none}
+  .featured-card{grid-template-columns:1fr}
+  .featured-img img{min-height:260px}
+  .featured-img-overlay{display:none}
+}
+@media(max-width:900px){
+  .top-contacts{display:none}
+  .ham{display:flex}
+  .nav-links{display:none;flex-direction:column;position:fixed;top:0;left:0;right:0;bottom:0;background:var(--navy);z-index:150;padding:5rem 2rem 2rem;overflow-y:auto}
+  .nav-links.open{display:flex}
+  .nav-links a{padding:1rem 0;font-size:1rem;border-bottom:1px solid rgba(255,255,255,.08);border-left:none}
+  .nav-links a.active,.nav-links a:hover{background:none;border-bottom-color:var(--orange);color:var(--orange)}
+  .page-hero-inner{grid-template-columns:1fr}
+  .hero-right-wrap{display:none}
+  .projects-grid{grid-template-columns:1fr 1fr}
+  .proj-card.wide,.proj-card.narrow,.proj-card.half,.proj-card.third{grid-column:span 1}
+  .proj-card.wide .proj-img,.proj-card.narrow .proj-img,.proj-card.half .proj-img,.proj-card.third .proj-img{height:200px}
+  .featured-metrics{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  .tbi{padding:0 1rem}
+  .main-content{padding:2.5rem 1rem 4rem}
+  .projects-grid{grid-template-columns:1fr}
+  .proj-card.wide,.proj-card.narrow,.proj-card.half,.proj-card.third{grid-column:span 1}
+  .stats-section{grid-template-columns:1fr 1fr;padding:2rem 1.5rem}
+  .cta-section{padding:2rem 1.5rem}
+  footer{padding:1.8rem 1rem;flex-direction:column;align-items:flex-start}
+  .page-hero-inner{padding:0 1rem 2.5rem}
+  .featured-body{padding:2rem 1.5rem}
+  .featured-metrics{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip">Skip to main content</a>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="tbi">
+    <a href="index.html" class="top-brand"><div class="bolt"></div><div class="bname">Kavita<span>-Electric</span></div></a>
+    <a href="index.html#contact" class="top-cta">Get Free Quote</a>
+    <div class="top-contacts">
+      <div class="tc"><div class="tc-ic">📍</div><div><div class="tc-lb">Address</div><div class="tc-vl">Maheta Block, Prabha Rd, Godhra</div></div></div>
+      <div class="tc"><div class="tc-ic">📞</div><div><div class="tc-lb">Phone</div><div class="tc-vl"><a href="tel:+918155961600">+91 81559 61600</a></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="main-nav">
+  <div class="ni">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="faq-contact.html">FAQ</a></li>
+      <li><a href="faq-contact.html#contact">Contact Us</a></li>
+    </ul>
+    <div class="nav-r">
+      <span class="soc">tw</span><span class="soc">yt</span><span class="soc">fb</span>
+      <button class="ham" id="ham" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span class="current">Projects</span>
+      </nav>
+      <h1>Our <em>Project</em><br/>Portfolio</h1>
+      <p class="hero-desc">From 120-unit residential townships to 100KW industrial solar farms — explore our completed and ongoing work across Gujarat since 2005.</p>
+      <div class="hero-stats-row">
+        <div class="hs"><div class="hs-num">1500+</div><div class="hs-lbl">Projects Done</div></div>
+        <div class="hs"><div class="hs-num">4</div><div class="hs-lbl">Categories</div></div>
+        <div class="hs"><div class="hs-num">98%</div><div class="hs-lbl">On-Time Rate</div></div>
+      </div>
+    </div>
+    <div class="hero-right-wrap">
+      <div class="hero-badge-card"><div class="hbc-icon">🏘️</div><div><div class="hbc-title">Residential</div><div class="hbc-sub">480+ homes wired</div></div></div>
+      <div class="hero-badge-card"><div class="hbc-icon">🏢</div><div><div class="hbc-title">Commercial</div><div class="hbc-sub">Offices & malls</div></div></div>
+      <div class="hero-badge-card"><div class="hbc-icon">🏭</div><div><div class="hbc-title">Industrial</div><div class="hbc-sub">Factories & plants</div></div></div>
+      <div class="hero-badge-card"><div class="hbc-icon">☀️</div><div><div class="hbc-title">Solar</div><div class="hbc-sub">2+ MW installed</div></div></div>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 48" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0 48L1440 48L1440 0C1200 38 960 48 720 38C480 28 240 0 0 18L0 48Z" fill="#ffffff"/></svg>
+</div>
+
+<main id="main">
+<div class="main-content">
+
+  <!-- FEATURED PROJECT -->
+  <div class="featured-section fade-up">
+    <div class="featured-label">Featured Project</div>
+    <div class="featured-card">
+      <div class="featured-img">
+        <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=85" alt="Silver Oaks Residential Township electrical project"/>
+        <div class="featured-img-overlay"></div>
+      </div>
+      <div class="featured-body">
+        <p class="featured-label">Residential · Completed 2024</p>
+        <h2 class="featured-title">Silver Oaks<br/><span>Residential Township</span></h2>
+        <p class="featured-desc">Complete electrical infrastructure for a 120-unit gated community in Godhra — underground cabling, flat wiring, common-area lighting, CCTV power, and full DB board installation for every unit. Delivered 3 weeks ahead of schedule.</p>
+        <div class="featured-metrics">
+          <div class="fm-item"><div class="fm-val">120<span>+</span></div><div class="fm-lbl">Residential Units</div></div>
+          <div class="fm-item"><div class="fm-val">18<span>km</span></div><div class="fm-lbl">Cabling Laid</div></div>
+          <div class="fm-item"><div class="fm-val">240<span>+</span></div><div class="fm-lbl">DB Boards</div></div>
+          <div class="fm-item"><div class="fm-val">14<span>wks</span></div><div class="fm-lbl">Project Duration</div></div>
+        </div>
+        <a href="faq-contact.html#contact" class="btn-orange">Start a Similar Project →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ALL PROJECTS -->
+  <div class="sec-header fade-up" style="margin-top:3rem">
+    <div>
+      <p class="sec-tag">Our Work</p>
+      <h2 class="sec-heading">All <span>Projects</span></h2>
+    </div>
+    <a href="faq-contact.html#contact" class="btn-outline">Discuss Your Project →</a>
+  </div>
+
+  <div class="filter-bar fade-up" id="filterBar">
+    <button class="filter-btn active" onclick="filterProjects('all',this)">All Projects</button>
+    <button class="filter-btn" onclick="filterProjects('residential',this)">Residential</button>
+    <button class="filter-btn" onclick="filterProjects('commercial',this)">Commercial</button>
+    <button class="filter-btn" onclick="filterProjects('industrial',this)">Industrial</button>
+    <button class="filter-btn" onclick="filterProjects('solar',this)">Solar</button>
+  </div>
+
+  <div class="projects-grid fade-up" id="projectsGrid">
+
+    <!-- Residential -->
+    <article class="proj-card wide" data-cat="residential">
+      <div class="proj-img-wrap">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=80" alt="Silver Oaks Township" loading="lazy"/>
+        <div class="proj-overlay"></div>
+        <span class="proj-status completed">Completed</span>
+        <span class="proj-type-badge">Residential</span>
+      </div>
+      <div class="proj-body">
+        <div class="proj-cat">Residential · Godhra</div>
+        <h3 class="proj-name">Silver Oaks Residential Township</h3>
+        <p class="proj-desc">Complete electrical setup for 120-unit gated community — underground cabling, flat wiring, common-area and landscape lighting, and full DB board installation.</p>
+        <div class="proj-meta">
+          <div class="pm-item"><span class="pm-label">Scale</span><span class="pm-val">120 Units</span></div>
+          <div class="pm-item"><span class="pm-label">Duration</span><span class="pm-val">14 Weeks</span></div>
+          <div class="pm-item"><span class="pm-label">Year</span><span class="pm-val">2024</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj-card narrow" data-cat="commercial">
+      <div class="proj-img-wrap">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=700&q=80" alt="Metro Mall Food Court" loading="lazy"/>
+        <div class="proj-overlay"></div>
+        <span class="proj-status completed">Completed</span>
+        <span class="proj-type-badge">Commercial</span>
+      </div>
+      <div class="proj-body">
+        <div class="proj-cat">Commercial · Vadodara</div>
+        <h3 class="proj-name">Metro Mall Food Court</h3>
+        <p class="proj-desc">High-load wiring and panel installation for 40,000 sq. ft. food court with 30+ outlets.</p>
+        <div class="proj-meta">
+          <div class="pm-item"><span class="pm-label">Area</span><span class="pm-val">40,000 sq ft</span></div>
+          <div class="pm-item"><span class="pm-label">Year</span><span class="pm-val">2023</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj-card narrow" data-cat="solar">
+      <div class="proj-img-wrap">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=700&q=80" alt="Sunrise Textile Solar" loading="lazy"/>
+        <div class="proj-overlay"></div>
+        <span class="proj-status ongoing">Ongoing</span>
+        <span class="proj-type-badge">Solar</span>
+      </div>
+      <div class="proj-body">
+        <div class="proj-cat">Solar · Godhra</div>
+        <h3 class="proj-name">Sunrise Textile Factory Solar</h3>
+        <p class="proj-desc">100 KW rooftop solar with grid-tie inverters — reducing electricity bill by 65%.</p>
+        <div class="proj-meta">
+          <div class="pm-item"><span class="pm-label">Capacity</span><span class="pm-val">100 KW</span></div>
+          <div class="pm-item"><span class="pm-label">Savings</span><span class="pm-val">65% Bill Cut</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj-card wide" data-cat="industrial">
+      <div class="proj-img-wrap">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=900&q=80" alt="Godhra Pharma Manufacturing Unit" loading="lazy"/>
+        <div class="proj-overlay"></div>
+        <span class="proj-status completed">Completed</span>
+        <span class="proj-type-badge">Industrial</span>
+      </div>
+      <div class="proj-body">
+        <div class="proj-cat">Industrial · Godhra</div>
+        <h3 class="proj-name">Godhra Pharma Manufacturing Unit</h3>
+        <p class="proj-desc">Full industrial electrical setup including motor control centres, power distribution boards, 3-phase wiring, and complete earthing systems for a GMP-compliant pharmaceutical plant.</p>
+        <div class="proj-meta">
+          <div class="pm-item"><span class="pm-label">Load</span><span class="pm-val">800 KVA</span></div>
+          <div class="pm-item"><span class="pm-label">Duration</span><span class="pm-val">20 Weeks</span></div>
+          <div class="pm-item"><span class="pm-label">Year</span><span class="pm-val">2023</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj-card half" data-cat="commercial">
+      <div class="proj-img-wrap">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80" alt="Anand Corporate Park" loading="lazy"/>
+        <div class="proj-overlay"></div>
+        <span class="proj-status completed">Completed</span>
+        <span class="proj-type-badge">Commercial</span>
+      </div>
+      <div class="proj-body">
+        <div class="proj-cat">Commercial · Anand</div>
+        <h3 class="proj-name">Anand Corporate Park</h3>
+        <p class="proj-desc">3-phase wiring, server room dedicated power lines, UPS backup, and data cabling support for 5-floor IT park.</p>
+        <div class="proj-meta">
+          <div class="pm-item"><span class="pm-label">Floors</span><span class="pm-val">5</span></div>
+          <div class="pm-item"><span class="pm-label">Year</span><span class="pm-val">2024</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj-card half" data-cat="residential">
+      <div class="proj-img-wrap">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=700&q=80" alt="Green Valley Society Rewiring" loading="lazy"/>
+        <div class="proj-overlay"></div>
+        <span class="proj-status completed">Completed</span>
+        <span class="proj-type-badge">Residential</span>
+      </div>
+      <div class="proj-body">
+        <div class="proj-cat">Residential · Bharuch</div>
+        <h3 class="proj-name">Green Valley Society Rewiring</h3>
+        <p class="proj-desc">Complete rewiring of 72-unit housing society — panel upgrades, MCB installation, earthing overhaul, and smart meter preparation.</p>
+        <div class="proj-meta">
+          <div class="pm-item"><span class="pm-label">Units</span><span class="pm-val">72</span></div>
+          <div class="pm-item"><span class="pm-label">Year</span><span class="pm-val">2024</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj-card third" data-cat="solar">
+      <div class="proj-img-wrap">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=80" alt="Halol School Solar" loading="lazy"/>
+        <div class="proj-overlay"></div>
+        <span class="proj-status completed">Completed</span>
+        <span class="proj-type-badge">Solar</span>
+      </div>
+      <div class="proj-body">
+        <div class="proj-cat">Solar · Halol</div>
+        <h3 class="proj-name">Halol Government School</h3>
+        <p class="proj-desc">25 KW rooftop solar installation with PM Surya Ghar subsidy. Zero electricity cost for the institution.</p>
+        <div class="proj-meta">
+          <div class="pm-item"><span class="pm-label">Capacity</span><span class="pm-val">25 KW</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj-card third" data-cat="industrial">
+      <div class="proj-img-wrap">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80" alt="Dahod Cold Storage" loading="lazy"/>
+        <div class="proj-overlay"></div>
+        <span class="proj-status completed">Completed</span>
+        <span class="proj-type-badge">Industrial</span>
+      </div>
+      <div class="proj-body">
+        <div class="proj-cat">Industrial · Dahod</div>
+        <h3 class="proj-name">Dahod Cold Storage Facility</h3>
+        <p class="proj-desc">Heavy-duty power supply, VFD installation for compressors, and generator backup for a 10,000-tonne cold storage plant.</p>
+        <div class="proj-meta">
+          <div class="pm-item"><span class="pm-label">Load</span><span class="pm-val">400 KVA</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj-card third" data-cat="commercial">
+      <div class="proj-img-wrap">
+        <img class="proj-img" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Panchmahal Hotel" loading="lazy"/>
+        <div class="proj-overlay"></div>
+        <span class="proj-status upcoming">Upcoming</span>
+        <span class="proj-type-badge">Commercial</span>
+      </div>
+      <div class="proj-body">
+        <div class="proj-cat">Commercial · Panchmahal</div>
+        <h3 class="proj-name">Godhra Heritage Hotel</h3>
+        <p class="proj-desc">Full electrical fit-out for 80-room boutique hotel — including kitchen power, HVAC wiring, and emergency lighting systems.</p>
+        <div class="proj-meta">
+          <div class="pm-item"><span class="pm-label">Rooms</span><span class="pm-val">80</span></div>
+          <div class="pm-item"><span class="pm-label">Start</span><span class="pm-val">Q2 2025</span></div>
+        </div>
+      </div>
+    </article>
+
+  </div><!-- /projects-grid -->
+
+  <!-- STATS SECTION -->
+  <div class="stats-section fade-up">
+    <div class="stat-col">
+      <span class="stat-icon">⚡</span>
+      <span class="stat-num">1500<span>+</span></span>
+      <span class="stat-lbl">Projects Completed</span>
+    </div>
+    <div class="stat-col">
+      <span class="stat-icon">🏗️</span>
+      <span class="stat-num">2<span>MW+</span></span>
+      <span class="stat-lbl">Solar Capacity Installed</span>
+    </div>
+    <div class="stat-col">
+      <span class="stat-icon">🏙️</span>
+      <span class="stat-num">14<span>+</span></span>
+      <span class="stat-lbl">Districts Covered</span>
+    </div>
+    <div class="stat-col">
+      <span class="stat-icon">⭐</span>
+      <span class="stat-num">98<span>%</span></span>
+      <span class="stat-lbl">Client Satisfaction</span>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section fade-up">
+    <div class="cta-text">
+      <h3>Have a Project in Mind?</h3>
+      <p>From a single-home rewiring to a large industrial setup — we bring the same quality and commitment to every job. Get a free consultation today.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="faq-contact.html#contact" class="btn-orange">Get Free Quote ↗</a>
+      <a href="services.html" class="btn-outline">View Services →</a>
+    </div>
+  </div>
+
+</div>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="f-brand">Kavita<span>-Electric</span></div>
+    <div class="f-copy">© 2025 Kavita Electric. Godhra, Gujarat — 389001 | +91 81559 61600</div>
+  </div>
+  <nav aria-label="Footer nav">
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="faq-contact.html">FAQ & Contact</a></li>
+    </ul>
+  </nav>
+</footer>
+
+<a href="https://wa.me/918155961600?text=Hi%2C%20I%20need%20an%20electrical%20quote" class="wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.136.557 4.14 1.534 5.876L0 24l6.335-1.56A11.946 11.946 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.371l-.358-.214-3.76.927.97-3.658-.235-.376A9.78 9.78 0 012.182 12C2.182 6.58 6.58 2.182 12 2.182S21.818 6.58 21.818 12 17.42 21.818 12 21.818z"/></svg>
+</a>
+
+<script>
+const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target)}})},{threshold:0.08});
+document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
+
+const ham=document.getElementById('ham');
+const nl=document.getElementById('navLinks');
+ham.addEventListener('click',()=>{const o=nl.classList.toggle('open');ham.classList.toggle('open',o);document.body.style.overflow=o?'hidden':'';});
+nl.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nl.classList.remove('open');ham.classList.remove('open');document.body.style.overflow='';}));
+
+function filterProjects(cat, btn){
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.proj-card').forEach(card=>{
+    if(cat==='all'||card.dataset.cat===cat){
+      card.style.display='flex';
+      card.style.opacity='0';
+      card.style.transform='translateY(20px)';
+      setTimeout(()=>{card.style.transition='opacity .4s ease,transform .4s ease';card.style.opacity='1';card.style.transform='translateY(0)'},50);
+    } else {
+      card.style.display='none';
+    }
+  });
+}
+</script>
+</body>
+</html>
