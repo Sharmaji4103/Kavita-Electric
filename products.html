@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Products — Kavita Electric | LED, Solar, Fans, Cables | Godhra, Gujarat</title>
+<meta name="description" content="Browse Kavita Electric's full product range — ISI certified LED bulbs, tube lights, ceiling fans, modular switches, solar panels, cables & wires. Serving Godhra & Gujarat."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Barlow+Condensed:wght@500;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23F05A22' rx='4'/><polygon points='19,2 13,14 22,14 10,30 18,30 18,16 9,16' fill='white'/></svg>" type="image/svg+xml"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#1A2346;--navy2:#243060;--orange:#F05A22;--orange2:#D14810;
+  --white:#fff;--gray:#F4F5F7;--gray2:#E8EAED;--muted:#6B7280;
+  --border:#E5E7EB;--text:#111827;--text2:#374151;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Barlow',sans-serif;background:var(--white);color:var(--text);overflow-x:hidden}
+
+/* ─── SKIP ─── */
+.skip{position:absolute;left:-9999px;background:var(--orange);color:#fff;padding:.4rem 1rem;font-weight:700;z-index:9999}
+.skip:focus{left:1rem;top:1rem}
+
+/* ─── TOP BAR ─── */
+.top-bar{background:var(--white);border-bottom:1px solid var(--border);padding:.5rem 0}
+.tbi{max-width:1280px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.top-brand{display:flex;align-items:center;gap:.5rem;text-decoration:none}
+.bolt{width:36px;height:36px;background:var(--orange);clip-path:polygon(62% 0%,36% 46%,68% 46%,28% 100%,52% 54%,22% 54%);flex-shrink:0}
+.bname{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.75rem;color:var(--navy);letter-spacing:.02em}
+.bname span{color:var(--orange)}
+.top-cta{background:var(--orange);color:#fff;border:none;padding:.55rem 1.4rem;font-family:'Barlow',sans-serif;font-size:.8rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;white-space:nowrap;transition:background .2s;text-decoration:none}
+.top-cta:hover{background:var(--orange2)}
+.top-contacts{display:flex;gap:1.8rem;align-items:center}
+.tc{display:flex;align-items:center;gap:.6rem}
+.tc-ic{width:32px;height:32px;border-radius:50%;border:1.5px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:.9rem;color:var(--orange);flex-shrink:0}
+.tc-lb{font-size:.65rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);line-height:1.2}
+.tc-vl{font-size:.8rem;font-weight:600;color:var(--text);line-height:1.3}
+.tc-vl a{color:inherit;text-decoration:none}
+
+/* ─── NAV ─── */
+.main-nav{background:var(--navy);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.25)}
+.ni{max-width:1280px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between}
+.nav-links{display:flex;list-style:none}
+.nav-links a{display:block;padding:.95rem 1.2rem;font-size:.84rem;font-weight:700;letter-spacing:.05em;color:rgba(255,255,255,.65);text-decoration:none;text-transform:uppercase;border-bottom:3px solid transparent;transition:color .2s,border-color .2s}
+.nav-links a:hover,.nav-links a.active{color:#fff;border-bottom-color:var(--orange)}
+.nav-r{display:flex;align-items:center;gap:.5rem}
+.soc{width:28px;height:28px;border-radius:50%;border:1.5px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.45);font-size:.65rem;font-weight:700;cursor:pointer;transition:border-color .2s,color .2s}
+.soc:hover{border-color:var(--orange);color:var(--orange)}
+.ham{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.4rem}
+.ham span{display:block;width:24px;height:2px;background:#fff;border-radius:2px;transition:transform .3s,opacity .3s}
+.ham.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.ham.open span:nth-child(2){opacity:0}
+.ham.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* ─── HERO / BREADCRUMB ─── */
+.page-hero{background:var(--navy);padding:4rem 0 0;position:relative;overflow:hidden}
+.page-hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");pointer-events:none}
+.page-hero-inner{max-width:1280px;margin:0 auto;padding:0 2rem 3rem;position:relative;z-index:1}
+.breadcrumb{display:flex;align-items:center;gap:.5rem;margin-bottom:1.5rem;font-size:.78rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+.breadcrumb a{color:rgba(255,255,255,.5);text-decoration:none;transition:color .2s}
+.breadcrumb a:hover{color:var(--orange)}
+.breadcrumb span{color:rgba(255,255,255,.25)}
+.breadcrumb .current{color:var(--orange)}
+.page-hero h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(3rem,6vw,5.5rem);font-weight:900;color:#fff;line-height:.95;letter-spacing:.01em}
+.page-hero h1 em{font-style:normal;color:var(--orange)}
+.page-hero p{font-size:1rem;color:rgba(255,255,255,.6);max-width:520px;line-height:1.75;margin-top:1.2rem;font-weight:400}
+.hero-wave{display:block;width:100%;line-height:0;margin-bottom:-1px}
+
+/* ─── FILTER BAR ─── */
+.filter-section{background:var(--gray);border-bottom:1px solid var(--border);padding:1.2rem 0;position:sticky;top:55px;z-index:50}
+.filter-inner{max-width:1280px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.filter-label{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+.filter-tabs{display:flex;gap:.5rem;flex-wrap:wrap}
+.ftab{background:#fff;border:1.5px solid var(--border);color:var(--muted);padding:.42rem 1.1rem;font-family:'Barlow',sans-serif;font-size:.8rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;cursor:pointer;border-radius:3px;transition:all .2s;white-space:nowrap}
+.ftab:hover{border-color:var(--orange);color:var(--orange)}
+.ftab.active{background:var(--orange);border-color:var(--orange);color:#fff}
+
+/* ─── MAIN CONTENT ─── */
+.main-content{max-width:1280px;margin:0 auto;padding:3.5rem 2rem 5rem}
+
+/* ─── FEATURED PRODUCT ─── */
+.featured-wrap{margin-bottom:4rem}
+.featured-tag{font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);display:flex;align-items:center;gap:.5rem;margin-bottom:1rem}
+.featured-tag::before{content:'';display:inline-block;width:20px;height:2px;background:var(--orange)}
+.featured-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:0;border:1.5px solid var(--border);border-radius:6px;overflow:hidden}
+.featured-img{position:relative;min-height:420px;overflow:hidden}
+.featured-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}
+.featured-img:hover img{transform:scale(1.04)}
+.featured-img-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(26,35,70,.6) 0%,transparent 60%)}
+.feat-badge{position:absolute;top:1.5rem;left:1.5rem;background:var(--orange);color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.35rem .9rem;border-radius:2px}
+.feat-discount{position:absolute;bottom:1.5rem;left:1.5rem;background:var(--navy);color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:1.8rem;font-weight:800;padding:.5rem 1rem;border-radius:3px;line-height:1}
+.featured-info{background:var(--navy);padding:3rem 3rem 3rem;display:flex;flex-direction:column;justify-content:center}
+.feat-cat{font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:.7rem}
+.feat-name{font-family:'Barlow Condensed',sans-serif;font-size:2.8rem;font-weight:900;color:#fff;line-height:1;letter-spacing:.01em;margin-bottom:1rem}
+.feat-name span{color:var(--orange)}
+.feat-desc{font-size:.9rem;color:rgba(255,255,255,.65);line-height:1.75;margin-bottom:1.8rem}
+.feat-specs{display:grid;grid-template-columns:1fr 1fr;gap:.8rem 1.5rem;margin-bottom:2rem}
+.spec-item{display:flex;align-items:center;gap:.55rem}
+.spec-dot{width:6px;height:6px;background:var(--orange);border-radius:50%;flex-shrink:0}
+.spec-txt{font-size:.82rem;color:rgba(255,255,255,.7)}
+.feat-actions{display:flex;gap:1rem;flex-wrap:wrap}
+.btn-orange{background:var(--orange);color:#fff;border:none;padding:.85rem 1.8rem;font-family:'Barlow',sans-serif;font-size:.84rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;transition:background .2s,transform .15s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
+.btn-orange:hover{background:var(--orange2);transform:translateY(-2px)}
+.btn-ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.25);padding:.82rem 1.8rem;font-family:'Barlow',sans-serif;font-size:.84rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;transition:border-color .2s,color .2s,transform .15s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
+.btn-ghost:hover{border-color:var(--orange);color:var(--orange);transform:translateY(-2px)}
+
+/* ─── SECTION TITLE ─── */
+.sec-title-row{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:2.5rem;flex-wrap:wrap;gap:1rem}
+.sec-tag{font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);display:flex;align-items:center;gap:.5rem;margin-bottom:.6rem}
+.sec-tag::before{content:'';display:inline-block;width:20px;height:2px;background:var(--orange)}
+.sec-heading{font-family:'Barlow Condensed',sans-serif;font-size:clamp(2rem,3.5vw,2.8rem);font-weight:800;color:var(--navy);letter-spacing:.01em;line-height:1.05}
+.sec-heading span{color:var(--orange)}
+
+/* ─── PRODUCTS GRID ─── */
+.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.8rem}
+.prod-card{background:var(--white);border:1.5px solid var(--border);border-radius:6px;overflow:hidden;transition:border-color .3s,transform .3s,box-shadow .3s;position:relative}
+.prod-card:hover{border-color:var(--orange);transform:translateY(-8px);box-shadow:0 20px 44px rgba(0,0,0,.1),0 0 0 1px rgba(240,90,34,.15)}
+.prod-img-wrap{width:100%;height:220px;overflow:hidden;background:var(--gray);position:relative}
+.prod-img-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .5s;filter:brightness(.9)}
+.prod-card:hover .prod-img-wrap img{transform:scale(1.08);filter:brightness(1)}
+.prod-overlay{position:absolute;inset:0;background:linear-gradient(transparent 45%,rgba(0,0,0,.55))}
+.pbadge{position:absolute;top:12px;right:12px;background:var(--orange);color:#fff;font-size:.62rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.2rem .65rem;border-radius:2px}
+.pbadge.new{background:var(--navy)}
+.pbadge.sale{background:#16a34a}
+.prod-body{padding:1.4rem 1.5rem 1.6rem}
+.prod-cat{font-size:.67rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);margin-bottom:.35rem}
+.prod-name{font-family:'Barlow Condensed',sans-serif;font-size:1.35rem;font-weight:700;letter-spacing:.03em;color:var(--navy);margin-bottom:.5rem;line-height:1.1}
+.prod-desc{font-size:.82rem;color:var(--muted);line-height:1.65;margin-bottom:1.2rem}
+.prod-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.3rem}
+.ptag{background:rgba(240,90,34,.08);border:1px solid rgba(240,90,34,.2);color:var(--orange);font-size:.65rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:.18rem .55rem;border-radius:2px}
+.prod-footer{display:flex;align-items:center;justify-content:space-between;padding-top:1rem;border-top:1px solid var(--border)}
+.prod-avail{font-size:.72rem;font-weight:600;color:#16a34a;display:flex;align-items:center;gap:.35rem}
+.prod-avail::before{content:'';width:6px;height:6px;background:#16a34a;border-radius:50%;display:inline-block}
+.prod-quote-btn{background:var(--navy);color:#fff;border:none;padding:.45rem 1rem;font-family:'Barlow',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;border-radius:2px;transition:background .2s}
+.prod-quote-btn:hover{background:var(--orange)}
+
+/* ─── WHY BUY ─── */
+.why-buy{background:var(--navy);border-radius:6px;padding:3rem;margin:4rem 0;display:grid;grid-template-columns:1fr 2fr;gap:3rem;align-items:center}
+.wb-left{border-right:1px solid rgba(255,255,255,.1);padding-right:3rem}
+.wb-big{font-family:'Barlow Condensed',sans-serif;font-size:5.5rem;font-weight:900;color:var(--orange);line-height:1}
+.wb-label{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:-.3rem}
+.wb-right{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.wb-item{text-align:center}
+.wb-icon{width:48px;height:48px;background:rgba(240,90,34,.12);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin:0 auto .8rem}
+.wb-title{font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:700;color:#fff;letter-spacing:.03em;margin-bottom:.3rem}
+.wb-desc{font-size:.78rem;color:rgba(255,255,255,.5);line-height:1.6}
+
+/* ─── CTA BANNER ─── */
+.cta-banner{background:var(--gray);border:1.5px solid var(--border);border-radius:6px;padding:2.5rem 3rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap;margin-top:4rem}
+.cta-banner-txt h3{font-family:'Barlow Condensed',sans-serif;font-size:2rem;font-weight:800;color:var(--navy);letter-spacing:.01em;margin-bottom:.4rem}
+.cta-banner-txt p{font-size:.9rem;color:var(--muted);line-height:1.65}
+.cta-banner-actions{display:flex;gap:1rem;flex-wrap:wrap}
+.btn-navy{background:var(--navy);color:#fff;border:none;padding:.85rem 1.8rem;font-family:'Barlow',sans-serif;font-size:.84rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;transition:background .2s,transform .15s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
+.btn-navy:hover{background:var(--navy2);transform:translateY(-2px)}
+
+/* ─── FOOTER ─── */
+footer{background:var(--navy);border-top:3px solid var(--orange);padding:2.2rem 2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.2rem}
+.f-brand{font-family:'Barlow Condensed',sans-serif;font-size:1.35rem;font-weight:800;color:#fff}
+.f-brand span{color:var(--orange)}
+.f-copy{font-size:.73rem;color:rgba(255,255,255,.38);margin-top:.25rem}
+.footer-links{display:flex;gap:1.6rem;list-style:none;flex-wrap:wrap}
+.footer-links a{color:rgba(255,255,255,.45);text-decoration:none;font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;transition:color .2s}
+.footer-links a:hover{color:var(--orange)}
+
+/* ─── WA ─── */
+.wa{position:fixed;bottom:26px;right:26px;z-index:200;width:56px;height:56px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(37,211,102,.4);text-decoration:none;transition:transform .25s}
+.wa:hover{transform:scale(1.12)}
+.wa svg{width:28px;height:28px}
+
+/* ─── FADE ─── */
+.fade-up{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+.fade-up.visible{opacity:1;transform:translateY(0)}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:1024px){
+  .featured-grid{grid-template-columns:1fr}
+  .featured-img{min-height:300px}
+  .why-buy{grid-template-columns:1fr}
+  .wb-left{border-right:none;border-bottom:1px solid rgba(255,255,255,.1);padding-right:0;padding-bottom:2rem;margin-bottom:1rem}
+  .wb-right{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:900px){
+  .top-contacts{display:none}
+  .ham{display:flex}
+  .nav-links{display:none;flex-direction:column;position:fixed;top:0;left:0;right:0;bottom:0;background:var(--navy);z-index:150;padding:5rem 2rem 2rem;overflow-y:auto}
+  .nav-links.open{display:flex}
+  .nav-links a{padding:1rem 0;font-size:1rem;border-bottom:1px solid rgba(255,255,255,.08);border-left:none}
+  .nav-links a.active,.nav-links a:hover{background:none;border-bottom-color:var(--orange);color:var(--orange)}
+  .filter-section{top:50px}
+  .wb-right{grid-template-columns:1fr 1fr}
+  .products-grid{grid-template-columns:repeat(2,1fr)}
+  .featured-info{padding:2rem}
+  .feat-name{font-size:2.2rem}
+}
+@media(max-width:600px){
+  .tbi{padding:0 1rem}
+  .main-content{padding:2.5rem 1rem 4rem}
+  .products-grid{grid-template-columns:1fr}
+  .wb-right{grid-template-columns:1fr}
+  .why-buy{padding:2rem 1.5rem}
+  .cta-banner{padding:2rem 1.5rem}
+  .cta-banner-txt h3{font-size:1.5rem}
+  footer{padding:1.8rem 1rem;flex-direction:column;align-items:flex-start}
+  .footer-links{gap:.8rem}
+  .page-hero-inner{padding:0 1rem 2.5rem}
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip">Skip to main content</a>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="tbi">
+    <a href="index.html" class="top-brand"><div class="bolt"></div><div class="bname">Kavita<span>-Electric</span></div></a>
+    <a href="index.html#contact" class="top-cta">Get Free Quote</a>
+    <div class="top-contacts">
+      <div class="tc"><div class="tc-ic">📍</div><div><div class="tc-lb">Address</div><div class="tc-vl">Maheta Block, Prabha Rd, Godhra</div></div></div>
+      <div class="tc"><div class="tc-ic">📞</div><div><div class="tc-lb">Phone</div><div class="tc-vl"><a href="tel:+918155961600">+91 81559 61600</a></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="main-nav">
+  <div class="ni">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html" class="active">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="index.html#contact">Contact Us</a></li>
+    </ul>
+    <div class="nav-r">
+      <span class="soc">tw</span><span class="soc">yt</span><span class="soc">fb</span>
+      <button class="ham" id="ham" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span>/</span><span class="current">Products</span>
+    </nav>
+    <h1>Our <em>Product</em><br/>Catalogue</h1>
+    <p>ISI certified, BIS compliant electrical products for homes, offices &amp; industries. Quality you can trust — delivered across Godhra &amp; Gujarat.</p>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 48" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0 48L1440 48L1440 0C1200 38 960 48 720 38C480 28 240 0 0 18L0 48Z" fill="#ffffff"/></svg>
+</div>
+
+<!-- FILTER BAR -->
+<div class="filter-section" id="filterBar">
+  <div class="filter-inner">
+    <span class="filter-label">Filter by:</span>
+    <div class="filter-tabs" role="group" aria-label="Product categories">
+      <button class="ftab active" onclick="filterProds(this,'all')">All Products</button>
+      <button class="ftab" onclick="filterProds(this,'lighting')">Lighting</button>
+      <button class="ftab" onclick="filterProds(this,'fans')">Fans</button>
+      <button class="ftab" onclick="filterProds(this,'fittings')">Switches & Fittings</button>
+      <button class="ftab" onclick="filterProds(this,'solar')">Solar</button>
+      <button class="ftab" onclick="filterProds(this,'wiring')">Cables & Wiring</button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="main-content">
+
+  <!-- FEATURED -->
+  <div class="featured-wrap fade-up">
+    <p class="featured-tag">Featured Product</p>
+    <div class="featured-grid">
+      <div class="featured-img">
+        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=900&q=80" alt="Solar Panels — Kavita Electric Godhra"/>
+        <div class="featured-img-overlay"></div>
+        <span class="feat-badge">⭐ Top Seller</span>
+        <div class="feat-discount">Subsidy<br/>Available</div>
+      </div>
+      <div class="featured-info">
+        <div class="feat-cat">Renewable Energy</div>
+        <h2 class="feat-name">Solar Panel<span><br/>Complete Kits</span></h2>
+        <p class="feat-desc">Mono &amp; polycrystalline solar panels 100W–400W with full rooftop installation kits. Grid-tie inverters included. We handle all subsidy paperwork under PM Surya Ghar Muft Bijli Yojana.</p>
+        <div class="feat-specs">
+          <div class="spec-item"><span class="spec-dot"></span><span class="spec-txt">100W – 400W range</span></div>
+          <div class="spec-item"><span class="spec-dot"></span><span class="spec-txt">Mono & Poly options</span></div>
+          <div class="spec-item"><span class="spec-dot"></span><span class="spec-txt">Grid-tie inverter</span></div>
+          <div class="spec-item"><span class="spec-dot"></span><span class="spec-txt">25-year panel warranty</span></div>
+          <div class="spec-item"><span class="spec-dot"></span><span class="spec-txt">Govt. subsidy support</span></div>
+          <div class="spec-item"><span class="spec-dot"></span><span class="spec-txt">ISI certified</span></div>
+        </div>
+        <div class="feat-actions">
+          <a href="index.html#contact" class="btn-orange">Get Quote ↗</a>
+          <a href="services.html" class="btn-ghost">View Installation →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ALL PRODUCTS -->
+  <div class="sec-title-row fade-up">
+    <div>
+      <p class="sec-tag">Full Catalogue</p>
+      <h2 class="sec-heading">All <span>Products</span></h2>
+    </div>
+    <a href="index.html#contact" class="btn-orange" style="padding:.65rem 1.4rem;font-size:.78rem">Request Bulk Supply</a>
+  </div>
+
+  <div class="products-grid" id="prodGrid">
+
+    <article class="prod-card fade-up" data-cat="lighting">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=600&q=80" alt="ISI Certified LED Bulbs" loading="lazy"/>
+        <div class="prod-overlay"></div>
+        <span class="pbadge">Best Seller</span>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Lighting</div>
+        <h3 class="prod-name">LED Bulbs</h3>
+        <p class="prod-desc">Energy-saving LED bulbs 5W–25W. Long life 15,000+ hours. Available in warm white (3000K) &amp; cool white (6500K). ISI certified.</p>
+        <div class="prod-tags"><span class="ptag">ISI Certified</span><span class="ptag">5W–25W</span><span class="ptag">Warm &amp; Cool</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('LED Bulbs')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="prod-card fade-up" data-cat="lighting">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="LED Tube Lights Tublite" loading="lazy"/>
+        <div class="prod-overlay"></div>
+        <span class="pbadge">Popular</span>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Lighting</div>
+        <h3 class="prod-name">Tube Lights (Tublite)</h3>
+        <p class="prod-desc">Fluorescent &amp; LED tube lights for homes, offices &amp; shops. 2ft, 4ft, 5ft lengths available. Flicker-free &amp; energy efficient.</p>
+        <div class="prod-tags"><span class="ptag">2ft / 4ft / 5ft</span><span class="ptag">Flicker-free</span><span class="ptag">ISI Mark</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('Tube Lights')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="prod-card fade-up" data-cat="lighting">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=600&q=80" alt="LED Panel Lights" loading="lazy"/>
+        <div class="prod-overlay"></div>
+        <span class="pbadge new">New Stock</span>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Lighting</div>
+        <h3 class="prod-name">LED Panel Lights</h3>
+        <p class="prod-desc">Slim square &amp; round panel lights for false ceilings. 6W–36W. Uniform light distribution. Ideal for offices &amp; showrooms.</p>
+        <div class="prod-tags"><span class="ptag">6W–36W</span><span class="ptag">Slim Design</span><span class="ptag">False Ceiling</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('LED Panel Lights')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="prod-card fade-up" data-cat="fans">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=600&q=80" alt="BLDC Ceiling Fans" loading="lazy"/>
+        <div class="prod-overlay"></div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Fans</div>
+        <h3 class="prod-name">Ceiling Fans (BLDC)</h3>
+        <p class="prod-desc">High-speed BLDC ceiling fans with 65% energy savings. 1200mm sweep. Remote control compatible. 2-year manufacturer warranty.</p>
+        <div class="prod-tags"><span class="ptag">BLDC Motor</span><span class="ptag">65% Energy Saving</span><span class="ptag">2yr Warranty</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('BLDC Ceiling Fans')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="prod-card fade-up" data-cat="fans">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80" alt="Table and Pedestal Fans" loading="lazy"/>
+        <div class="prod-overlay"></div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Fans</div>
+        <h3 class="prod-name">Table & Pedestal Fans</h3>
+        <p class="prod-desc">Portable table and pedestal fans for homes and workspaces. Variable speed control, oscillation, 3-pin ISI plug.</p>
+        <div class="prod-tags"><span class="ptag">Portable</span><span class="ptag">Variable Speed</span><span class="ptag">ISI Plug</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('Table & Pedestal Fans')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="prod-card fade-up" data-cat="fittings">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&q=80" alt="Modular Switches and Sockets" loading="lazy"/>
+        <div class="prod-overlay"></div>
+        <span class="pbadge new">New Arrival</span>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Switches & Fittings</div>
+        <h3 class="prod-name">Modular Switches</h3>
+        <p class="prod-desc">Premium modular switches, 3-pin sockets, USB charging points and combo plates. Fire-resistant, ISI marked for complete safety.</p>
+        <div class="prod-tags"><span class="ptag">ISI Marked</span><span class="ptag">Fire-Resistant</span><span class="ptag">USB Points</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('Modular Switches')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="prod-card fade-up" data-cat="fittings">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80" alt="MCB and Distribution Boards" loading="lazy"/>
+        <div class="prod-overlay"></div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Switches & Fittings</div>
+        <h3 class="prod-name">MCB & DB Boards</h3>
+        <p class="prod-desc">Miniature Circuit Breakers &amp; Distribution Boards for residential and commercial panels. Single &amp; 3-phase available. BIS compliant.</p>
+        <div class="prod-tags"><span class="ptag">BIS Compliant</span><span class="ptag">Single & 3-Phase</span><span class="ptag">IP Rating</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('MCB & DB Boards')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="prod-card fade-up" data-cat="solar">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=80" alt="Solar Panels" loading="lazy"/>
+        <div class="prod-overlay"></div>
+        <span class="pbadge sale">Subsidy</span>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Renewable Energy</div>
+        <h3 class="prod-name">Solar Panels</h3>
+        <p class="prod-desc">Mono &amp; polycrystalline panels 100W–400W. Complete rooftop kits with inverter. Govt. subsidy assistance available.</p>
+        <div class="prod-tags"><span class="ptag">100W–400W</span><span class="ptag">Mono & Poly</span><span class="ptag">25yr Warranty</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('Solar Panels')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="prod-card fade-up" data-cat="solar">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1620714223084-8fcacc2dfd4d?w=600&q=80" alt="Solar Inverters" loading="lazy"/>
+        <div class="prod-overlay"></div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Renewable Energy</div>
+        <h3 class="prod-name">Solar Inverters</h3>
+        <p class="prod-desc">Grid-tie and off-grid solar inverters 1kW–10kW. Pure sine wave output, MPPT charge controllers for maximum efficiency.</p>
+        <div class="prod-tags"><span class="ptag">1kW–10kW</span><span class="ptag">Grid-Tie</span><span class="ptag">MPPT</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('Solar Inverters')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="prod-card fade-up" data-cat="wiring">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=80" alt="PVC Cables and Wires" loading="lazy"/>
+        <div class="prod-overlay"></div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Cables & Wiring</div>
+        <h3 class="prod-name">PVC Insulated Wires</h3>
+        <p class="prod-desc">Copper conductor PVC insulated wires for all household and commercial wiring. 1mm–25mm sq, single &amp; multi-core options.</p>
+        <div class="prod-tags"><span class="ptag">1mm–25mm sq</span><span class="ptag">Copper Core</span><span class="ptag">ISI Certified</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('PVC Insulated Wires')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="prod-card fade-up" data-cat="wiring">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80" alt="Armoured Cables" loading="lazy"/>
+        <div class="prod-overlay"></div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Cables & Wiring</div>
+        <h3 class="prod-name">Armoured Cables</h3>
+        <p class="prod-desc">Steel wire armoured (SWA) cables for underground and industrial use. Heavy duty, moisture and crush resistant. All voltages.</p>
+        <div class="prod-tags"><span class="ptag">Underground</span><span class="ptag">SWA</span><span class="ptag">Industrial</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('Armoured Cables')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="prod-card fade-up" data-cat="wiring">
+      <div class="prod-img-wrap">
+        <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&q=80" alt="Conduit Pipes and Accessories" loading="lazy"/>
+        <div class="prod-overlay"></div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-cat">Cables & Wiring</div>
+        <h3 class="prod-name">Conduit Pipes & Accessories</h3>
+        <p class="prod-desc">Rigid and flexible conduit pipes, junction boxes, clips and fittings. PVC and MS options for surface &amp; concealed wiring.</p>
+        <div class="prod-tags"><span class="ptag">PVC & MS</span><span class="ptag">Rigid & Flex</span><span class="ptag">All Sizes</span></div>
+        <div class="prod-footer">
+          <span class="prod-avail">In Stock</span>
+          <button class="prod-quote-btn" onclick="quoteThis('Conduit Pipes')">Get Quote</button>
+        </div>
+      </div>
+    </article>
+
+  </div><!-- /prodGrid -->
+
+  <!-- WHY BUY FROM US -->
+  <div class="why-buy fade-up">
+    <div class="wb-left">
+      <div class="wb-big">ISI<br/>✓</div>
+      <div class="wb-label">Certified Products Only</div>
+    </div>
+    <div class="wb-right">
+      <div class="wb-item">
+        <div class="wb-icon">🏷️</div>
+        <div class="wb-title">Genuine Brands</div>
+        <div class="wb-desc">We stock only authorised, original products from certified manufacturers.</div>
+      </div>
+      <div class="wb-item">
+        <div class="wb-icon">🚚</div>
+        <div class="wb-title">Fast Delivery</div>
+        <div class="wb-desc">Same-day delivery across Godhra and within 48hrs across Gujarat.</div>
+      </div>
+      <div class="wb-item">
+        <div class="wb-icon">💰</div>
+        <div class="wb-title">Bulk Discounts</div>
+        <div class="wb-desc">Special pricing for contractors, builders, and large project orders.</div>
+      </div>
+      <div class="wb-item">
+        <div class="wb-icon">🔧</div>
+        <div class="wb-title">Installation Support</div>
+        <div class="wb-desc">Buy products with installation — one team for supply and fitting.</div>
+      </div>
+      <div class="wb-item">
+        <div class="wb-icon">📋</div>
+        <div class="wb-title">Warranty Backed</div>
+        <div class="wb-desc">All products carry manufacturer warranty. We assist with any claims.</div>
+      </div>
+      <div class="wb-item">
+        <div class="wb-icon">📞</div>
+        <div class="wb-title">Expert Advice</div>
+        <div class="wb-desc">Our team helps you choose the right product for your exact requirement.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA BANNER -->
+  <div class="cta-banner fade-up">
+    <div class="cta-banner-txt">
+      <h3>Need a Custom Bulk Quote?</h3>
+      <p>For large projects, contracting work, or regular supply orders — contact us for special rates &amp; priority stock.</p>
+    </div>
+    <div class="cta-banner-actions">
+      <a href="index.html#contact" class="btn-orange">Request Quote ↗</a>
+      <a href="tel:+918155961600" class="btn-navy">📞 Call Now</a>
+    </div>
+  </div>
+
+</div><!-- /main-content -->
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="f-brand">Kavita<span>-Electric</span></div>
+    <div class="f-copy">© 2025 Kavita Electric. Godhra, Gujarat – 389001 | +91 81559 61600</div>
+  </div>
+  <nav aria-label="Footer nav">
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+</footer>
+
+<a href="https://wa.me/918155961600?text=Hi%2C%20I%20need%20a%20product%20quote" class="wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.136.557 4.14 1.534 5.876L0 24l6.335-1.56A11.946 11.946 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.371l-.358-.214-3.76.927.97-3.658-.235-.376A9.78 9.78 0 012.182 12C2.182 6.58 6.58 2.182 12 2.182S21.818 6.58 21.818 12 17.42 21.818 12 21.818z"/></svg>
+</a>
+
+<script>
+// Fade on scroll
+const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target)}})},{threshold:0.08});
+document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
+
+// Hamburger
+const ham=document.getElementById('ham');
+const nl=document.getElementById('navLinks');
+ham.addEventListener('click',()=>{const o=nl.classList.toggle('open');ham.classList.toggle('open',o);document.body.style.overflow=o?'hidden':'';});
+nl.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nl.classList.remove('open');ham.classList.remove('open');document.body.style.overflow='';}));
+
+// Filter
+function filterProds(btn, cat){
+  document.querySelectorAll('.ftab').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('#prodGrid .prod-card').forEach(card=>{
+    const show = cat==='all' || card.dataset.cat===cat;
+    card.style.display = show ? '' : 'none';
+  });
+}
+
+// Quote this product
+function quoteThis(product){
+  window.location.href='index.html#contact';
+  sessionStorage.setItem('quoteProduct', product);
+}
+</script>
+</body>
+</html>

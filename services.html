@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Services — Kavita Electric | Wiring, Solar, Industrial, Emergency | Godhra, Gujarat</title>
+<meta name="description" content="Kavita Electric offers residential wiring, commercial electrical, industrial setup, solar installation, panel upgrades & 24/7 emergency repairs across Godhra and Gujarat."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Barlow+Condensed:wght@500;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23F05A22' rx='4'/><polygon points='19,2 13,14 22,14 10,30 18,30 18,16 9,16' fill='white'/></svg>" type="image/svg+xml"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#1A2346;--navy2:#243060;--orange:#F05A22;--orange2:#D14810;
+  --white:#fff;--gray:#F4F5F7;--muted:#6B7280;--border:#E5E7EB;
+  --text:#111827;--text2:#374151;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Barlow',sans-serif;background:var(--white);color:var(--text);overflow-x:hidden}
+
+/* ─── SKIP ─── */
+.skip{position:absolute;left:-9999px;background:var(--orange);color:#fff;padding:.4rem 1rem;font-weight:700;z-index:9999}
+.skip:focus{left:1rem;top:1rem}
+
+/* ─── TOP BAR ─── */
+.top-bar{background:var(--white);border-bottom:1px solid var(--border);padding:.5rem 0}
+.tbi{max-width:1280px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.top-brand{display:flex;align-items:center;gap:.5rem;text-decoration:none}
+.bolt{width:36px;height:36px;background:var(--orange);clip-path:polygon(62% 0%,36% 46%,68% 46%,28% 100%,52% 54%,22% 54%);flex-shrink:0}
+.bname{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.75rem;color:var(--navy);letter-spacing:.02em}
+.bname span{color:var(--orange)}
+.top-cta{background:var(--orange);color:#fff;border:none;padding:.55rem 1.4rem;font-family:'Barlow',sans-serif;font-size:.8rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;white-space:nowrap;transition:background .2s;text-decoration:none}
+.top-cta:hover{background:var(--orange2)}
+.top-contacts{display:flex;gap:1.8rem;align-items:center}
+.tc{display:flex;align-items:center;gap:.6rem}
+.tc-ic{width:32px;height:32px;border-radius:50%;border:1.5px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:.9rem;color:var(--orange);flex-shrink:0}
+.tc-lb{font-size:.65rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);line-height:1.2}
+.tc-vl{font-size:.8rem;font-weight:600;color:var(--text);line-height:1.3}
+.tc-vl a{color:inherit;text-decoration:none}
+
+/* ─── NAV ─── */
+.main-nav{background:var(--navy);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.25)}
+.ni{max-width:1280px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between}
+.nav-links{display:flex;list-style:none}
+.nav-links a{display:block;padding:.95rem 1.2rem;font-size:.84rem;font-weight:700;letter-spacing:.05em;color:rgba(255,255,255,.65);text-decoration:none;text-transform:uppercase;border-bottom:3px solid transparent;transition:color .2s,border-color .2s}
+.nav-links a:hover,.nav-links a.active{color:#fff;border-bottom-color:var(--orange)}
+.nav-r{display:flex;align-items:center;gap:.5rem}
+.soc{width:28px;height:28px;border-radius:50%;border:1.5px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.45);font-size:.65rem;font-weight:700;cursor:pointer;transition:border-color .2s,color .2s}
+.soc:hover{border-color:var(--orange);color:var(--orange)}
+.ham{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.4rem}
+.ham span{display:block;width:24px;height:2px;background:#fff;border-radius:2px;transition:transform .3s,opacity .3s}
+.ham.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.ham.open span:nth-child(2){opacity:0}
+.ham.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* ─── PAGE HERO ─── */
+.page-hero{background:var(--navy);padding:4rem 0 0;position:relative;overflow:hidden}
+.page-hero::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 59px,rgba(255,255,255,.03) 59px,rgba(255,255,255,.03) 60px),repeating-linear-gradient(90deg,transparent,transparent 59px,rgba(255,255,255,.03) 59px,rgba(255,255,255,.03) 60px);pointer-events:none}
+.page-hero-inner{max-width:1280px;margin:0 auto;padding:0 2rem 3rem;position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.breadcrumb{display:flex;align-items:center;gap:.5rem;margin-bottom:1.5rem;font-size:.78rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+.breadcrumb a{color:rgba(255,255,255,.5);text-decoration:none;transition:color .2s}
+.breadcrumb a:hover{color:var(--orange)}
+.breadcrumb span{color:rgba(255,255,255,.25)}
+.breadcrumb .current{color:var(--orange)}
+.page-hero h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(3rem,5.5vw,5.5rem);font-weight:900;color:#fff;line-height:.95;letter-spacing:.01em}
+.page-hero h1 em{font-style:normal;color:var(--orange)}
+.hero-desc{font-size:.97rem;color:rgba(255,255,255,.6);line-height:1.75;margin-top:1.2rem;max-width:430px}
+.hero-stats-row{display:flex;gap:2rem;margin-top:2rem;flex-wrap:wrap}
+.hs{border-left:3px solid var(--orange);padding-left:.9rem}
+.hs-num{font-family:'Barlow Condensed',sans-serif;font-size:2.2rem;font-weight:900;color:#fff;line-height:1}
+.hs-lbl{font-size:.68rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:.1rem}
+.hero-right-wrap{display:flex;flex-direction:column;gap:1rem}
+.hero-badge-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:5px;padding:1.2rem 1.5rem;display:flex;align-items:center;gap:1rem;transition:background .25s}
+.hero-badge-card:hover{background:rgba(255,255,255,.1)}
+.hbc-icon{width:42px;height:42px;background:rgba(240,90,34,.15);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}
+.hbc-title{font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:700;color:#fff;letter-spacing:.03em}
+.hbc-sub{font-size:.78rem;color:rgba(255,255,255,.45);margin-top:.1rem}
+.hero-wave{display:block;width:100%;line-height:0;margin-bottom:-1px}
+
+/* ─── BUTTONS ─── */
+.btn-orange{background:var(--orange);color:#fff;border:none;padding:.85rem 1.8rem;font-family:'Barlow',sans-serif;font-size:.84rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;transition:background .2s,transform .15s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
+.btn-orange:hover{background:var(--orange2);transform:translateY(-2px)}
+.btn-navy{background:var(--navy);color:#fff;border:none;padding:.85rem 1.8rem;font-family:'Barlow',sans-serif;font-size:.84rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;transition:background .2s,transform .15s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
+.btn-navy:hover{background:var(--navy2);transform:translateY(-2px)}
+.btn-outline{background:transparent;color:var(--navy);border:2px solid var(--navy);padding:.82rem 1.8rem;font-family:'Barlow',sans-serif;font-size:.84rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;transition:all .2s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
+.btn-outline:hover{background:var(--navy);color:#fff;transform:translateY(-2px)}
+
+/* ─── MAIN ─── */
+.main-content{max-width:1280px;margin:0 auto;padding:4rem 2rem 5rem}
+
+/* ─── SECTION ─── */
+.sec-tag{font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);display:flex;align-items:center;gap:.5rem;margin-bottom:.6rem}
+.sec-tag::before{content:'';display:inline-block;width:20px;height:2px;background:var(--orange)}
+.sec-heading{font-family:'Barlow Condensed',sans-serif;font-size:clamp(2rem,3.5vw,3rem);font-weight:800;color:var(--navy);letter-spacing:.01em;line-height:1.05}
+.sec-heading span{color:var(--orange)}
+.sec-header{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:3rem;flex-wrap:wrap;gap:1.5rem}
+
+/* ─── SERVICE DETAIL CARDS ─── */
+.services-list{display:flex;flex-direction:column;gap:2px;border:1.5px solid var(--border);border-radius:6px;overflow:hidden}
+.svc-row{display:grid;grid-template-columns:320px 1fr;background:var(--white);transition:background .25s;cursor:pointer}
+.svc-row:hover{background:var(--gray)}
+.svc-row.expanded{background:var(--navy);color:#fff}
+.svc-row+.svc-row{border-top:1.5px solid var(--border)}
+.svc-row.expanded+.svc-row{border-top-color:rgba(255,255,255,.1)}
+.svc-left{padding:2rem 2.5rem;display:flex;align-items:center;gap:1.2rem;border-right:1.5px solid var(--border)}
+.svc-row.expanded .svc-left{border-right-color:rgba(255,255,255,.1)}
+.svc-num-badge{font-family:'Barlow Condensed',sans-serif;font-size:3rem;font-weight:900;color:rgba(240,90,34,.15);line-height:1;min-width:52px}
+.svc-row.expanded .svc-num-badge{color:rgba(240,90,34,.4)}
+.svc-icon-box{width:52px;height:52px;background:rgba(240,90,34,.08);border:1.5px solid rgba(240,90,34,.2);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;transition:background .25s,border-color .25s}
+.svc-row:hover .svc-icon-box,.svc-row.expanded .svc-icon-box{background:rgba(240,90,34,.18);border-color:var(--orange)}
+.svc-name{font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:700;letter-spacing:.03em;color:var(--navy);line-height:1.15}
+.svc-row.expanded .svc-name{color:#fff}
+.svc-name-sub{font-size:.75rem;font-weight:600;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-top:.25rem}
+.svc-row.expanded .svc-name-sub{color:rgba(255,255,255,.45)}
+.svc-right{padding:2rem 2.5rem;display:flex;align-items:center;justify-content:space-between;gap:2rem}
+.svc-brief{font-size:.88rem;color:var(--muted);line-height:1.7;max-width:480px}
+.svc-row.expanded .svc-brief{color:rgba(255,255,255,.65)}
+.svc-toggle{width:32px;height:32px;border-radius:50%;border:1.5px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:1.2rem;color:var(--muted);transition:all .3s;flex-shrink:0}
+.svc-row:hover .svc-toggle{border-color:var(--orange);color:var(--orange)}
+.svc-row.expanded .svc-toggle{border-color:var(--orange);background:var(--orange);color:#fff;transform:rotate(45deg)}
+
+/* EXPANDED DETAIL PANEL */
+.svc-detail{max-height:0;overflow:hidden;transition:max-height .45s ease;background:var(--gray);border-top:none}
+.svc-detail.open{max-height:600px;border-top:1.5px solid var(--border)}
+.svc-detail-inner{padding:2.5rem;display:grid;grid-template-columns:1fr 1fr 1fr;gap:2rem}
+.sd-col h4{font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:700;color:var(--navy);letter-spacing:.03em;margin-bottom:.8rem;display:flex;align-items:center;gap:.5rem}
+.sd-col h4::before{content:'';display:inline-block;width:3px;height:16px;background:var(--orange);border-radius:2px}
+.sd-list{list-style:none;display:flex;flex-direction:column;gap:.5rem}
+.sd-list li{font-size:.82rem;color:var(--muted);display:flex;align-items:flex-start;gap:.5rem;line-height:1.55}
+.sd-list li::before{content:'→';color:var(--orange);font-weight:700;flex-shrink:0;margin-top:.05rem}
+.sd-cta{grid-column:span 3;display:flex;align-items:center;justify-content:space-between;padding-top:1.5rem;border-top:1px solid var(--border);flex-wrap:wrap;gap:1rem}
+.sd-price{font-size:.82rem;color:var(--muted)}
+.sd-price strong{font-family:'Barlow Condensed',sans-serif;font-size:1.3rem;font-weight:700;color:var(--navy);display:block;margin-bottom:.15rem}
+
+/* ─── PROCESS SECTION ─── */
+.process-section{background:var(--navy);border-radius:6px;padding:3.5rem;margin:4rem 0}
+.process-header{text-align:center;margin-bottom:3rem}
+.process-header .sec-tag{justify-content:center}
+.process-header .sec-tag::before{display:none}
+.process-header .sec-heading{color:#fff;max-width:480px;margin:0 auto}
+.process-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;position:relative}
+.process-steps::before{content:'';position:absolute;top:32px;left:10%;right:10%;height:2px;background:linear-gradient(to right,var(--orange) 0%,rgba(240,90,34,.2) 100%);z-index:0}
+.step{text-align:center;position:relative;z-index:1;padding:0 .5rem}
+.step-num{width:64px;height:64px;border-radius:50%;background:var(--navy);border:2px solid var(--orange);display:flex;align-items:center;justify-content:center;margin:0 auto 1.2rem;font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:900;color:var(--orange);transition:background .3s}
+.step:hover .step-num{background:var(--orange);color:#fff}
+.step-title{font-family:'Barlow Condensed',sans-serif;font-size:1rem;font-weight:700;color:#fff;letter-spacing:.03em;margin-bottom:.4rem}
+.step-desc{font-size:.77rem;color:rgba(255,255,255,.45);line-height:1.6}
+
+/* ─── EMERGENCY BANNER ─── */
+.emergency-banner{background:var(--orange);border-radius:6px;padding:2.8rem 3rem;display:grid;grid-template-columns:auto 1fr auto;gap:2rem;align-items:center;margin:4rem 0}
+.emg-icon{font-size:3.5rem;animation:pulse 1.5s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+.emg-text h3{font-family:'Barlow Condensed',sans-serif;font-size:2.2rem;font-weight:900;color:#fff;letter-spacing:.01em;line-height:1}
+.emg-text p{font-size:.9rem;color:rgba(255,255,255,.8);margin-top:.5rem;line-height:1.65}
+.emg-actions{display:flex;flex-direction:column;gap:.8rem;align-items:flex-end}
+.btn-white{background:#fff;color:var(--orange);border:none;padding:.85rem 2rem;font-family:'Barlow',sans-serif;font-size:.84rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;transition:background .2s,transform .15s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;white-space:nowrap}
+.btn-white:hover{background:var(--gray);transform:translateY(-2px)}
+.btn-white-outline{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.5);padding:.82rem 2rem;font-family:'Barlow',sans-serif;font-size:.84rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;border-radius:3px;transition:all .2s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;white-space:nowrap}
+.btn-white-outline:hover{border-color:#fff;background:rgba(255,255,255,.1);transform:translateY(-2px)}
+
+/* ─── TESTIMONIALS ─── */
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem}
+.testi-card{border:1.5px solid var(--border);border-radius:6px;padding:2rem;transition:border-color .3s,box-shadow .3s}
+.testi-card:hover{border-color:rgba(240,90,34,.35);box-shadow:0 8px 24px rgba(0,0,0,.07)}
+.stars{color:var(--orange);font-size:.85rem;letter-spacing:2px;margin-bottom:.6rem}
+.tq{font-size:2.5rem;line-height:1;color:var(--orange);opacity:.25;font-family:Georgia,serif;margin-bottom:.5rem}
+.ttext{font-size:.88rem;line-height:1.75;color:var(--text2);font-style:italic;margin-bottom:1.3rem}
+.tauthor{display:flex;align-items:center;gap:.8rem}
+.tav{width:38px;height:38px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.82rem;color:#fff;flex-shrink:0}
+.tname{font-weight:700;font-size:.85rem;color:var(--navy)}
+.trole{font-size:.72rem;color:var(--muted)}
+
+/* ─── CTA SECTION ─── */
+.cta-section{background:var(--gray);border:1.5px solid var(--border);border-radius:6px;padding:3rem;display:flex;align-items:center;justify-content:space-between;gap:2.5rem;flex-wrap:wrap;margin-top:4rem}
+.cta-text h3{font-family:'Barlow Condensed',sans-serif;font-size:2.2rem;font-weight:800;color:var(--navy);letter-spacing:.01em;line-height:1.05;margin-bottom:.5rem}
+.cta-text p{font-size:.9rem;color:var(--muted);line-height:1.65;max-width:460px}
+.cta-actions{display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
+
+/* ─── FOOTER ─── */
+footer{background:var(--navy);border-top:3px solid var(--orange);padding:2.2rem 2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.2rem}
+.f-brand{font-family:'Barlow Condensed',sans-serif;font-size:1.35rem;font-weight:800;color:#fff}
+.f-brand span{color:var(--orange)}
+.f-copy{font-size:.73rem;color:rgba(255,255,255,.38);margin-top:.25rem}
+.footer-links{display:flex;gap:1.6rem;list-style:none;flex-wrap:wrap}
+.footer-links a{color:rgba(255,255,255,.45);text-decoration:none;font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;transition:color .2s}
+.footer-links a:hover{color:var(--orange)}
+
+/* ─── WA ─── */
+.wa{position:fixed;bottom:26px;right:26px;z-index:200;width:56px;height:56px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(37,211,102,.4);text-decoration:none;transition:transform .25s}
+.wa:hover{transform:scale(1.12)}
+.wa svg{width:28px;height:28px}
+
+/* ─── FADE ─── */
+.fade-up{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+.fade-up.visible{opacity:1;transform:translateY(0)}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:1100px){
+  .process-steps{grid-template-columns:repeat(3,1fr);gap:2rem}
+  .process-steps::before{display:none}
+  .svc-detail-inner{grid-template-columns:1fr 1fr}
+  .sd-cta{grid-column:span 2}
+}
+@media(max-width:900px){
+  .top-contacts{display:none}
+  .ham{display:flex}
+  .nav-links{display:none;flex-direction:column;position:fixed;top:0;left:0;right:0;bottom:0;background:var(--navy);z-index:150;padding:5rem 2rem 2rem;overflow-y:auto}
+  .nav-links.open{display:flex}
+  .nav-links a{padding:1rem 0;font-size:1rem;border-bottom:1px solid rgba(255,255,255,.08);border-left:none}
+  .nav-links a.active,.nav-links a:hover{background:none;border-bottom-color:var(--orange);color:var(--orange)}
+  .page-hero-inner{grid-template-columns:1fr}
+  .hero-right-wrap{display:none}
+  .svc-row{grid-template-columns:1fr}
+  .svc-left{border-right:none;border-bottom:1.5px solid var(--border);padding:1.5rem}
+  .svc-row.expanded .svc-left{border-bottom-color:rgba(255,255,255,.1)}
+  .svc-right{padding:1.5rem}
+  .svc-detail-inner{grid-template-columns:1fr;gap:1.5rem}
+  .sd-cta{grid-column:span 1}
+  .emergency-banner{grid-template-columns:1fr;text-align:center;padding:2rem}
+  .emg-actions{align-items:center}
+  .testi-grid{grid-template-columns:1fr}
+  .process-steps{grid-template-columns:repeat(2,1fr);gap:2rem}
+}
+@media(max-width:600px){
+  .tbi{padding:0 1rem}
+  .main-content{padding:2.5rem 1rem 4rem}
+  .process-section{padding:2.5rem 1.5rem}
+  .process-steps{grid-template-columns:1fr}
+  .cta-section{padding:2rem 1.5rem}
+  .cta-text h3{font-size:1.6rem}
+  footer{padding:1.8rem 1rem;flex-direction:column;align-items:flex-start}
+  .page-hero-inner{padding:0 1rem 2.5rem}
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip">Skip to main content</a>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="tbi">
+    <a href="index.html" class="top-brand"><div class="bolt"></div><div class="bname">Kavita<span>-Electric</span></div></a>
+    <a href="index.html#contact" class="top-cta">Get Free Quote</a>
+    <div class="top-contacts">
+      <div class="tc"><div class="tc-ic">📍</div><div><div class="tc-lb">Address</div><div class="tc-vl">Maheta Block, Prabha Rd, Godhra</div></div></div>
+      <div class="tc"><div class="tc-ic">📞</div><div><div class="tc-lb">Phone</div><div class="tc-vl"><a href="tel:+918155961600">+91 81559 61600</a></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="main-nav">
+  <div class="ni">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="index.html#contact">Contact Us</a></li>
+    </ul>
+    <div class="nav-r">
+      <span class="soc">tw</span><span class="soc">yt</span><span class="soc">fb</span>
+      <button class="ham" id="ham" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span class="current">Services</span>
+      </nav>
+      <h1>Expert <em>Electrical</em><br/>Services</h1>
+      <p class="hero-desc">Licensed, insured, and ISI-certified electricians serving homes, businesses, and industries across Godhra and Gujarat since 2005.</p>
+      <div class="hero-stats-row">
+        <div class="hs"><div class="hs-num">20+</div><div class="hs-lbl">Years Active</div></div>
+        <div class="hs"><div class="hs-num">1500+</div><div class="hs-lbl">Projects Done</div></div>
+        <div class="hs"><div class="hs-num">24/7</div><div class="hs-lbl">Emergency</div></div>
+      </div>
+    </div>
+    <div class="hero-right-wrap">
+      <div class="hero-badge-card"><div class="hbc-icon">🏠</div><div><div class="hbc-title">Residential Wiring</div><div class="hbc-sub">New builds & rewiring</div></div></div>
+      <div class="hero-badge-card"><div class="hbc-icon">🏢</div><div><div class="hbc-title">Commercial Projects</div><div class="hbc-sub">Offices, malls, warehouses</div></div></div>
+      <div class="hero-badge-card"><div class="hbc-icon">🏭</div><div><div class="hbc-title">Industrial Electrical</div><div class="hbc-sub">Factories & plants</div></div></div>
+      <div class="hero-badge-card"><div class="hbc-icon">☀️</div><div><div class="hbc-title">Solar Installation</div><div class="hbc-sub">Subsidy paperwork included</div></div></div>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 48" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0 48L1440 48L1440 0C1200 38 960 48 720 38C480 28 240 0 0 18L0 48Z" fill="#ffffff"/></svg>
+</div>
+
+<main id="main">
+<div class="main-content">
+
+  <!-- SERVICES ACCORDION LIST -->
+  <div class="sec-header fade-up">
+    <div>
+      <p class="sec-tag">What We Do</p>
+      <h2 class="sec-heading">Our <span>Services</span> in Detail</h2>
+    </div>
+    <a href="index.html#contact" class="btn-orange">Request Service ↗</a>
+  </div>
+
+  <div class="services-list fade-up" id="svcList">
+
+    <!-- Service 1 -->
+    <div class="svc-row" onclick="toggleSvc(this)">
+      <div class="svc-left">
+        <div class="svc-num-badge">01</div>
+        <div class="svc-icon-box">🏠</div>
+        <div>
+          <div class="svc-name">Residential Wiring</div>
+          <div class="svc-name-sub">Home • Apartment • Villa</div>
+        </div>
+      </div>
+      <div class="svc-right">
+        <p class="svc-brief">Complete home wiring — new constructions to full rewiring of older homes. All work done to modern IS:732 safety standards with proper earthing.</p>
+        <div class="svc-toggle">+</div>
+      </div>
+    </div>
+    <div class="svc-detail" id="d1">
+      <div class="svc-detail-inner">
+        <div class="sd-col"><h4>What's Included</h4><ul class="sd-list"><li>Full wiring layout & planning</li><li>Concealed & surface wiring</li><li>Main panel & DB board setup</li><li>Earthing & lightning protection</li><li>Point wiring for fans, ACs, geysers</li><li>Final testing & certification</li></ul></div>
+        <div class="sd-col"><h4>Suitable For</h4><ul class="sd-list"><li>New home constructions</li><li>Apartment rewiring</li><li>Old house electrical upgrade</li><li>Bungalow & villa projects</li><li>Society & township wiring</li></ul></div>
+        <div class="sd-col"><h4>Why Choose Us</h4><ul class="sd-list"><li>Government licensed electricians</li><li>IS:732 standard compliance</li><li>1-year workmanship warranty</li><li>No hidden costs — fixed quote</li><li>Clean site, zero damage to walls</li></ul></div>
+        <div class="sd-cta">
+          <div class="sd-price"><strong>Free Site Visit</strong>Get a detailed quote after our engineer assesses your property.</div>
+          <a href="index.html#contact" class="btn-orange">Book Free Consultation ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="svc-row" onclick="toggleSvc(this)">
+      <div class="svc-left">
+        <div class="svc-num-badge">02</div>
+        <div class="svc-icon-box">🏢</div>
+        <div>
+          <div class="svc-name">Commercial Electrical</div>
+          <div class="svc-name-sub">Office • Retail • Warehouse</div>
+        </div>
+      </div>
+      <div class="svc-right">
+        <p class="svc-brief">Large-scale commercial electrical with minimal business downtime. From offices and showrooms to warehouses and retail chains.</p>
+        <div class="svc-toggle">+</div>
+      </div>
+    </div>
+    <div class="svc-detail" id="d2">
+      <div class="svc-detail-inner">
+        <div class="sd-col"><h4>What's Included</h4><ul class="sd-list"><li>Load calculation & power planning</li><li>3-phase wiring & distribution</li><li>Air conditioning & server room points</li><li>Emergency exit & safety lighting</li><li>CCTV & data cabling support</li><li>Power factor correction</li></ul></div>
+        <div class="sd-col"><h4>Suitable For</h4><ul class="sd-list"><li>Corporate offices & co-working</li><li>Showrooms & retail stores</li><li>Hotels & restaurants</li><li>Warehouses & logistics</li><li>Malls & commercial complexes</li></ul></div>
+        <div class="sd-col"><h4>Our Approach</h4><ul class="sd-list"><li>Work during off-hours to avoid disruption</li><li>Dedicated project manager assigned</li><li>Weekly progress reporting</li><li>BIS compliant components only</li><li>Post-handover support 6 months</li></ul></div>
+        <div class="sd-cta">
+          <div class="sd-price"><strong>Project-Based Pricing</strong>Transparent quote provided before work begins. No surprises.</div>
+          <a href="index.html#contact" class="btn-orange">Get Project Quote ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="svc-row" onclick="toggleSvc(this)">
+      <div class="svc-left">
+        <div class="svc-num-badge">03</div>
+        <div class="svc-icon-box">🏭</div>
+        <div>
+          <div class="svc-name">Industrial Electrical</div>
+          <div class="svc-name-sub">Factory • Plant • Unit</div>
+        </div>
+      </div>
+      <div class="svc-right">
+        <p class="svc-brief">Heavy-duty wiring, motor installations, control panels, and safety compliance for factories, manufacturing plants, and industrial units.</p>
+        <div class="svc-toggle">+</div>
+      </div>
+    </div>
+    <div class="svc-detail" id="d3">
+      <div class="svc-detail-inner">
+        <div class="sd-col"><h4>What's Included</h4><ul class="sd-list"><li>High-tension & LT wiring</li><li>Motor control centre (MCC) setup</li><li>Power distribution boards (PDB)</li><li>VFD & soft starter installation</li><li>Industrial earthing systems</li><li>Safety compliance & audit support</li></ul></div>
+        <div class="sd-col"><h4>Industries Served</h4><ul class="sd-list"><li>Textile & garment factories</li><li>Pharmaceutical units</li><li>Food processing plants</li><li>Chemical & petrochemical</li><li>Engineering workshops</li><li>Cold storage facilities</li></ul></div>
+        <div class="sd-col"><h4>Standards Followed</h4><ul class="sd-list"><li>IE Rules 1956 compliance</li><li>IS:3043 earthing standards</li><li>NFPA 70 reference for safety</li><li>IEC certified components</li><li>Factory inspector approved work</li></ul></div>
+        <div class="sd-cta">
+          <div class="sd-price"><strong>Custom Industrial Quotes</strong>Site visit & load assessment required. Contact us today.</div>
+          <a href="index.html#contact" class="btn-orange">Request Site Visit ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 4 -->
+    <div class="svc-row" onclick="toggleSvc(this)">
+      <div class="svc-left">
+        <div class="svc-num-badge">04</div>
+        <div class="svc-icon-box">⚡</div>
+        <div>
+          <div class="svc-name">Panel & Board Upgrades</div>
+          <div class="svc-name-sub">MCB • DB Board • Rewiring</div>
+        </div>
+      </div>
+      <div class="svc-right">
+        <p class="svc-brief">Upgrade outdated electrical panels to meet today's power demands safely. Essential for older homes and expanding businesses.</p>
+        <div class="svc-toggle">+</div>
+      </div>
+    </div>
+    <div class="svc-detail" id="d4">
+      <div class="svc-detail-inner">
+        <div class="sd-col"><h4>What's Included</h4><ul class="sd-list"><li>Old fuse box to MCB panel upgrade</li><li>ELCB / RCCB installation</li><li>Load balancing across phases</li><li>New DB board setup</li><li>Surge protection devices</li><li>Full testing post-upgrade</li></ul></div>
+        <div class="sd-col"><h4>When You Need This</h4><ul class="sd-list"><li>Frequent tripping & power issues</li><li>Adding ACs, EV chargers or solar</li><li>House more than 15 years old</li><li>Business expanding load capacity</li><li>Buying or renovating a property</li></ul></div>
+        <div class="sd-col"><h4>Benefits</h4><ul class="sd-list"><li>Eliminates fire risk from overloads</li><li>Supports modern high-load devices</li><li>Meets current safety codes</li><li>Reduces electricity wastage</li><li>Fully certified post-installation</li></ul></div>
+        <div class="sd-cta">
+          <div class="sd-price"><strong>Starting ₹2,500</strong>Exact cost depends on panel size and load requirement.</div>
+          <a href="index.html#contact" class="btn-orange">Get Upgrade Quote ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 5 -->
+    <div class="svc-row" onclick="toggleSvc(this)">
+      <div class="svc-left">
+        <div class="svc-num-badge">05</div>
+        <div class="svc-icon-box">☀️</div>
+        <div>
+          <div class="svc-name">Solar Panel Installation</div>
+          <div class="svc-name-sub">Rooftop • Grid-Tie • Subsidy</div>
+        </div>
+      </div>
+      <div class="svc-right">
+        <p class="svc-brief">Complete rooftop solar setup — supply, installation, inverter connection, net metering and full government subsidy paperwork assistance.</p>
+        <div class="svc-toggle">+</div>
+      </div>
+    </div>
+    <div class="svc-detail" id="d5">
+      <div class="svc-detail-inner">
+        <div class="sd-col"><h4>What's Included</h4><ul class="sd-list"><li>Site survey & shadow analysis</li><li>Panel supply (100W–400W)</li><li>Mounting structure installation</li><li>Grid-tie inverter setup</li><li>Net metering application support</li><li>Govt. subsidy filing assistance</li></ul></div>
+        <div class="sd-col"><h4>Suitable For</h4><ul class="sd-list"><li>Residential homes & bungalows</li><li>Factories & industrial rooftops</li><li>Commercial buildings & offices</li><li>Schools & institutions</li><li>Agriculture pump sets (Solar)</li></ul></div>
+        <div class="sd-col"><h4>Key Benefits</h4><ul class="sd-list"><li>Save 60–80% on electricity bills</li><li>25-year panel performance warranty</li><li>PM Surya Ghar subsidy support</li><li>Payback in 4–6 years typically</li><li>Zero maintenance in first 10 years</li></ul></div>
+        <div class="sd-cta">
+          <div class="sd-price"><strong>Free Solar Assessment</strong>We calculate your savings before you decide. No obligation.</div>
+          <a href="index.html#contact" class="btn-orange">Get Free Solar Assessment ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 6 -->
+    <div class="svc-row" onclick="toggleSvc(this)">
+      <div class="svc-left">
+        <div class="svc-num-badge">06</div>
+        <div class="svc-icon-box">🔧</div>
+        <div>
+          <div class="svc-name">Emergency Repairs</div>
+          <div class="svc-name-sub">24/7 • Same Day • Gujarat-wide</div>
+        </div>
+      </div>
+      <div class="svc-right">
+        <p class="svc-brief">Power outage, short circuit, sparking, or faulty wiring — call us anytime. Our emergency team reaches you within the hour across Gujarat.</p>
+        <div class="svc-toggle">+</div>
+      </div>
+    </div>
+    <div class="svc-detail" id="d6">
+      <div class="svc-detail-inner">
+        <div class="sd-col"><h4>Emergency Services</h4><ul class="sd-list"><li>Power outage diagnosis & repair</li><li>Short circuit isolation & fix</li><li>Sparking & burning smell resolution</li><li>MCB/ELCB tripping repair</li><li>Flood/water damage assessment</li><li>Generator & inverter issues</li></ul></div>
+        <div class="sd-col"><h4>Response Timeline</h4><ul class="sd-list"><li>Call received: immediate dispatch</li><li>Godhra area: within 30–45 mins</li><li>Panchmahal district: 1–1.5 hrs</li><li>Other Gujarat areas: 2–3 hrs</li><li>Night calls accepted all 7 days</li></ul></div>
+        <div class="sd-col"><h4>How We Help</h4><ul class="sd-list"><li>Fully equipped emergency van</li><li>Spare parts stocked on-board</li><li>Certified fault diagnosis tools</li><li>Safe isolation before any repair</li><li>Written repair report provided</li></ul></div>
+        <div class="sd-cta">
+          <div class="sd-price"><strong>Call Anytime — 24/7</strong>Emergency charges apply after 8 PM on weekdays and all day Sunday.</div>
+          <a href="tel:+918155961600" class="btn-orange">📞 Call Emergency Line</a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /services-list -->
+
+  <!-- PROCESS SECTION -->
+  <div class="process-section fade-up">
+    <div class="process-header">
+      <p class="sec-tag">How It Works</p>
+      <h2 class="sec-heading">Our Simple <span>5-Step Process</span></h2>
+    </div>
+    <div class="process-steps">
+      <div class="step"><div class="step-num">1</div><div class="step-title">You Contact Us</div><div class="step-desc">Call, WhatsApp or fill the form. Tell us what you need.</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-title">Free Site Visit</div><div class="step-desc">Our engineer visits your site and assesses the requirement.</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-title">Detailed Quote</div><div class="step-desc">You receive a transparent, itemised quote — no hidden costs.</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-title">Work Begins</div><div class="step-desc">Our licensed team starts on your agreed date and timeline.</div></div>
+      <div class="step"><div class="step-num">5</div><div class="step-title">Handover & Warranty</div><div class="step-desc">Work certified, 1-year warranty issued, full support ongoing.</div></div>
+    </div>
+  </div>
+
+  <!-- EMERGENCY BANNER -->
+  <div class="emergency-banner fade-up">
+    <div class="emg-icon">⚡</div>
+    <div class="emg-text">
+      <h3>Power Emergency?<br/>We're Available 24/7</h3>
+      <p>Don't wait. Call us right now — our emergency team serves Godhra and all of Gujarat around the clock.</p>
+    </div>
+    <div class="emg-actions">
+      <a href="tel:+918155961600" class="btn-white">📞 +91 81559 61600</a>
+      <a href="https://wa.me/918155961600?text=Emergency%20electrical%20help%20needed" class="btn-white-outline" target="_blank" rel="noopener">WhatsApp Us →</a>
+    </div>
+  </div>
+
+  <!-- TESTIMONIALS -->
+  <div class="fade-up">
+    <p class="sec-tag">Client Reviews</p>
+    <h2 class="sec-heading">What Our <span>Clients</span> Say</h2>
+    <div class="testi-grid">
+      <article class="testi-card">
+        <div class="stars">★★★★★</div>
+        <div class="tq">"</div>
+        <blockquote class="ttext">Kavita Electric rewired our entire 3-floor office with zero disruption to our business. Professional team, clean work, delivered on time.</blockquote>
+        <div class="tauthor"><div class="tav">RJ</div><div><div class="tname">Rajesh Joshi</div><div class="trole">Business Owner, Godhra</div></div></div>
+      </article>
+      <article class="testi-card">
+        <div class="stars">★★★★★</div>
+        <div class="tq">"</div>
+        <blockquote class="ttext">They installed solar panels for our factory and the savings have been incredible — electricity bill down 68% in first month. Highly recommended.</blockquote>
+        <div class="tauthor"><div class="tav">SP</div><div><div class="tname">Suresh Patel</div><div class="trole">Factory Manager, Godhra</div></div></div>
+      </article>
+      <article class="testi-card">
+        <div class="stars">★★★★★</div>
+        <div class="tq">"</div>
+        <blockquote class="ttext">Called for a midnight emergency — arrived within 45 minutes, fixed the fault completely. This is the kind of service you remember for life. Thank you!</blockquote>
+        <div class="tauthor"><div class="tav">MK</div><div><div class="tname">Meena Kapadia</div><div class="trole">Homeowner, Panchmahal</div></div></div>
+      </article>
+    </div>
+  </div>
+
+  <!-- CTA SECTION -->
+  <div class="cta-section fade-up">
+    <div class="cta-text">
+      <h3>Ready to Start Your Project?</h3>
+      <p>Contact us today for a free consultation and transparent quote. No obligations — just expert advice from Gujarat's trusted electricians.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="index.html#contact" class="btn-orange">Get Free Quote ↗</a>
+      <a href="products.html" class="btn-outline">Browse Products →</a>
+    </div>
+  </div>
+
+</div><!-- /main-content -->
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="f-brand">Kavita<span>-Electric</span></div>
+    <div class="f-copy">© 2025 Kavita Electric. Godhra, Gujarat – 389001 | +91 81559 61600</div>
+  </div>
+  <nav aria-label="Footer nav">
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+</footer>
+
+<a href="https://wa.me/918155961600?text=Hi%2C%20I%20need%20an%20electrical%20service%20quote" class="wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.136.557 4.14 1.534 5.876L0 24l6.335-1.56A11.946 11.946 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.371l-.358-.214-3.76.927.97-3.658-.235-.376A9.78 9.78 0 012.182 12C2.182 6.58 6.58 2.182 12 2.182S21.818 6.58 21.818 12 17.42 21.818 12 21.818z"/></svg>
+</a>
+
+<script>
+// Fade
+const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target)}})},{threshold:0.08});
+document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
+
+// Hamburger
+const ham=document.getElementById('ham');
+const nl=document.getElementById('navLinks');
+ham.addEventListener('click',()=>{const o=nl.classList.toggle('open');ham.classList.toggle('open',o);document.body.style.overflow=o?'hidden':'';});
+nl.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nl.classList.remove('open');ham.classList.remove('open');document.body.style.overflow='';}));
+
+// Service accordion
+function toggleSvc(row){
+  const isExp = row.classList.contains('expanded');
+  // Close all
+  document.querySelectorAll('.svc-row.expanded').forEach(r=>{
+    r.classList.remove('expanded');
+    const next = r.nextElementSibling;
+    if(next && next.classList.contains('svc-detail')) next.classList.remove('open');
+  });
+  if(!isExp){
+    row.classList.add('expanded');
+    const detail = row.nextElementSibling;
+    if(detail && detail.classList.contains('svc-detail')) detail.classList.add('open');
+    setTimeout(()=>row.scrollIntoView({behavior:'smooth',block:'nearest'}),100);
+  }
+}
+</script>
+</body>
+</html>
